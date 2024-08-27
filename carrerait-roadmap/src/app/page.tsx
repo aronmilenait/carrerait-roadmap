@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <main className="bg-sky-950 text-white p-24 min-h-screen flex flex-col justify-center items-center">
+    <main className="min-h-screen bg-sky-950 text-white p-24 flex flex-col justify-center items-center">
       <section id="hero" className="text-center space-y-6">
         <h1 className="text-sky-100 text-5xl font-extrabold leading-tight max-w-3xl mx-auto">
           Descubrí el mejor camino para tu carrera en IT
