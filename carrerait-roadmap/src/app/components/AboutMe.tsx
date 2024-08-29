@@ -102,8 +102,8 @@ const AboutMe = () => {
       </h2>
       <p className={paragraphClasses}>
         La idea de crearlo surgió al ver a muchas personas consultando qué era
-        lo mejor para su formación, basándose en sus situaciones personales. Por
-        ejemplo:
+        <b>lo mejor para su formación</b>, basándose en sus{" "}
+        <b>situaciones personales</b>. Por ejemplo:
       </p>
       <p className={paragraphClasses}>
         <span className={quoteClasses}>
@@ -120,9 +120,9 @@ const AboutMe = () => {
         consiguieron entrar al rubro sin hacer una carrera en IT.
       </p>
       <p className={paragraphClasses}>
-        Yo también estuve ahí, y a veces me replanteo mi camino. Por eso, decidí
-        crear este sitio web, donde podés responder unas preguntas y recibir una
-        respuesta basada en tu situación particular, con consejos y
+        <b>Yo también estuve ahí, y a veces me replanteo mi camino.</b> Por eso,
+        decidí crear este sitio web, donde podés responder unas preguntas y
+        recibir una respuesta basada en tu situación particular, con consejos y
         recomendaciones.
       </p>
     </section>

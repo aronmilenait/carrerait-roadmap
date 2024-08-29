@@ -60,10 +60,10 @@ const AboutWebsite = () => {
       </p>
 
       <p className={paragraphClasses}>
-        Además, cada persona tiene situaciones muy particulares. Por ejemplo,
-        hay quienes trabajan todo el día, y otros que no, o personas que ya
-        están en el rubro porque se formaron de manera autodidacta pero quieren
-        mejorar su carrera.
+        Además, cada persona tiene <b>situaciones muy particulares.</b> Por
+        ejemplo, hay quienes trabajan todo el día, y otros que no, o personas
+        que ya están en el rubro porque se formaron de manera autodidacta pero
+        quieren mejorar su carrera.
       </p>
 
       <h2 className="text-4xl font-extrabold text-sky-100 text-center">
@@ -88,8 +88,8 @@ const AboutWebsite = () => {
 
       <p className={paragraphClasses}>
         Sin embargo, no tomes tu respuesta como una verdad absoluta e
-        inmodificable. La idea es que reflexiones sobre tus posibilidades y
-        limitaciones a medida que respondés, y que tomes una decisión
+        inmodificable. La idea es que <b>reflexiones sobre tus posibilidades</b>
+        y limitaciones a medida que respondés, y que <b>tomes una decisión</b>
         considerando la respuesta brindada al final.
         <br />
         Todo lo que vas a leer fue escrito por mí, no por una IA, considerando
