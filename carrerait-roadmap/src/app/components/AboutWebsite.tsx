@@ -15,7 +15,7 @@ const AboutWebsite = () => {
   ].join(" ");
 
   const quoteClasses = [
-"text-white",
+    "text-white",
     "italic",
     "text-xl",
     "leading-relaxed",
@@ -31,14 +31,14 @@ const AboutWebsite = () => {
       </h1>
 
       <p className={paragraphClasses}>
-        Durante el último tiempo, me di cuenta de que muchas personas que
-        aspiran o que trabajan en IT tienen el mismo interrogante:
+        Últimamente me di cuenta de que muchas personas que aspiran a trabajar o
+        que ya trabajan en IT tienen el mismo interrogante:
       </p>
 
       <p className={paragraphClasses}>
         <span className={quoteClasses}>
-          ¿Debería empezar a formarme/retomar mis estudios en la universidad o
-          de manera autodidacta?
+          ¿Debería empezar a formarme o retomar mis estudios en la universidad,
+          o debería hacerlo de manera autodidacta?
         </span>
       </p>
 
@@ -49,21 +49,21 @@ const AboutWebsite = () => {
       <p className={paragraphClasses}>
         <span className={quoteClasses}>
           Si elijo la universidad, ¿es mejor una tecnicatura, una licenciatura o
-          una ingeniería? ¿Me conviene una pública o privada?
+          una ingeniería? ¿Me conviene una universidad pública o privada?
         </span>
       </p>
 
       <p className={paragraphClasses}>
         <span className={quoteClasses}>
-          Si quiero formarme de manera autodidacta, ¿cómo lo hago?
+          Si quiero formarme de manera autodidacta, ¿cómo debería hacerlo?
         </span>
       </p>
 
       <p className={paragraphClasses}>
-        Además, cada persona tiene situaciones muy particulares. Por ejemplo:
-        hay quienes trabajan todo el día, y otros que no, o gente que ya está en
-        el rubro por haberse formado de manera autodidacta pero quiere mejorar
-        su carrera.
+        Además, cada persona tiene situaciones muy particulares. Por ejemplo,
+        hay quienes trabajan todo el día, y otros que no, o personas que ya
+        están en el rubro porque se formaron de manera autodidacta pero quieren
+        mejorar su carrera.
       </p>
 
       <h2 className="text-4xl font-extrabold text-sky-100 text-center">
@@ -74,12 +74,11 @@ const AboutWebsite = () => {
 
       <ul className={listClasses}>
         <li>
-          Cada pregunta que respondés es considerada a la hora de darte la
-          respuesta final.
+          Cada respuesta se tiene en cuenta a la hora de darte la devolución.
         </li>
         <li>
-          Son varias preguntas, enfocadas en los aspectos más importantes a la
-          hora de decidir cómo avanzar con tu carrera profesional.
+          Son varias preguntas, enfocadas en los aspectos más importantes para
+          decidir cómo avanzar con tu carrera profesional.
         </li>
         <li>
           No necesitás registrarte y es anónimo. Tus respuestas tampoco son
@@ -88,13 +87,13 @@ const AboutWebsite = () => {
       </ul>
 
       <p className={paragraphClasses}>
-        Sin embargo, no tomes tu respuesta como una verdad absoluta,
-        inmodificable. La idea es que vayas reflexionando sobre tus
-        posibilidades y limitaciones a medida que lo respondés, y que tomes una
-        decisión considerando la respuesta brindada al final.
+        Sin embargo, no tomes tu respuesta como una verdad absoluta e
+        inmodificable. La idea es que reflexiones sobre tus posibilidades y
+        limitaciones a medida que respondés, y que tomes una decisión
+        considerando la respuesta brindada al final.
         <br />
-        Todo lo que vas a leer fue escrito por mí, y no por IA, considerando qué
-        es lo mejor para cada caso y enfocándome en cada respuesta.
+        Todo lo que vas a leer fue escrito por mí, no por una IA, considerando
+        qué es lo mejor para cada caso y enfocándome en cada respuesta.
       </p>
     </section>
   );

@@ -46,11 +46,11 @@ const AboutMe = () => {
         Sobre mí
       </h1>
       <p className={paragraphClasses}>
-        ¡Hola! Me llamo Milena, y soy de Argentina. Estoy trabajando en el área
-        de desarrollo desde 2023, y me hace muy feliz dedicarme a esto.
+        ¡Hola! Me llamo Milena y soy de Argentina. Trabajo en el área de
+        desarrollo desde 2023, y me hace muy feliz dedicarme a esto.
       </p>
       <p className={paragraphClasses}>
-        Si tenés alguna duda sobre el proyecto, feedback o simplemente querés
+        Si tenés alguna duda sobre el proyecto, feedback, o simplemente querés
         ampliar tu red de contactos, podés encontrarme en:
       </p>
       <div className="flex justify-center space-x-8 mb-8">
@@ -101,7 +101,7 @@ const AboutMe = () => {
         ¿Cómo nació este proyecto?
       </h2>
       <p className={paragraphClasses}>
-        La idea de crearlo surgió de ver a muchas personas consultando qué era
+        La idea de crearlo surgió al ver a muchas personas consultando qué era
         lo mejor para su formación, basándose en sus situaciones personales. Por
         ejemplo:
       </p>
@@ -109,22 +109,20 @@ const AboutMe = () => {
         <span className={quoteClasses}>
           Tengo 31 años, 4 hijos y un perro. Me gustaría empezar a trabajar en
           programación, pero no tengo idea de nada. ¿Me conviene estudiar de
-          forma autodidacta o ir a la universidad? Pero qué es mejor: ¿una
+          forma autodidacta o ir a la universidad? ¿Qué es mejor: una
           tecnicatura, una licenciatura o una ingeniería?
         </span>
       </p>
       <p className={paragraphClasses}>
-        Y así, este interrogante se va dando en distintos perfiles, incluyendo
-        aquellos que ya tienen experiencia en el rubro y que abandonaron la
-        universidad o que nunca la iniciaron en primer lugar, o que capaz no
-        hicieron una carrera en IT y, aprendiendo de forma autodidacta,
-        consiguieron entrar al rubro.
+        Este interrogante surge en distintos perfiles, incluyendo aquellos que
+        ya tienen experiencia en el rubro, que abandonaron la universidad, que
+        nunca la iniciaron, o que, aprendiendo de forma autodidacta,
+        consiguieron entrar al rubro sin hacer una carrera en IT.
       </p>
-
       <p className={paragraphClasses}>
         Yo también estuve ahí, y a veces me replanteo mi camino. Por eso, decidí
-        crear este sitio web, donde podés responder a unas preguntas y recibir
-        una respuesta basada en tu situación personal particular, con consejos y
+        crear este sitio web, donde podés responder unas preguntas y recibir una
+        respuesta basada en tu situación particular, con consejos y
         recomendaciones.
       </p>
     </section>
