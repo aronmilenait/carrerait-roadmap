@@ -5,22 +5,22 @@ export const questionsData = [
       {
         text: "Actualmente, no trabajo.",
         response:
-          "El hecho de que no trabajes, en el caso de no necesitarlo en el corto o mediano plazo, puede darte una ventaja a la hora de estudiar. Si tenés la posibilidad de que alguien te ayude en este momento, ¡mejor! Aunque sé que es algo que no todos tienen.",
+          "El hecho de que no trabajes, en el caso de no necesitarlo en el corto o mediano plazo, puede darte una ventaja a la hora de estudiar. Esto puede requerir del apoyo de tu familia o de las personas con las que convivas, en el caso de que puedas disponerlo.",
       },
       {
         text: "Sí, pero no se relaciona con IT.",
         response:
-          "El hecho de que estés trabajando puede brindarte la posibilidad de financiar tu educación, ya sea de manera autodidacta, universitaria o una combinación de ambas, ¿por qué no?",
+          "El hecho de que estés trabajando puede brindarte la posibilidad de financiar tu educación, ya sea de manera autodidacta, universitaria o una combinación de ambas.",
       },
       {
         text: "Trabajo en IT, en el área que más me gusta.",
         response:
-          "El hecho de que ya estés trabajando en el rubro Y en el área de tu preferencia te pone en una posición ventajosa. Estás ganando experiencia que va a servirte mucho en el futuro, y al mismo tiempo estás aprendiendo en un entorno laboral real. Además, te brinda la posibilidad de financiar tu educación, ya sea de manera autodidacta, universitaria o una combinación de ambas.",
+          "El hecho de que ya estés trabajando en el rubro y en el área de tu preferencia es una ventaja muy grande: ¡conseguiste lo que muchos buscan!. Estás ganando experiencia que va a servirte en el futuro, y al mismo tiempo estás aprendiendo en un entorno laboral real. Además, te brinda la posibilidad de financiar tu educación, ya sea de manera autodidacta, universitaria o una combinación de ambas.",
       },
       {
         text: "Trabajo en IT, pero no estoy en el área que quiero.",
         response:
-          "El hecho de que estés trabajando en IT, aunque no sea en el área de tu preferencia, sigue siendo una ventaja, ya que lograste ingresar. Además, te brinda la posibilidad de financiar tu educación, ya sea de manera autodidacta, universitaria o una combinación de ambas.",
+          "El hecho de que estés trabajando en IT, aunque no sea en el área de tu preferencia, es una ventaja: ¡lograste ingresar en el rubro! Además, te brinda la posibilidad de financiar tu educación, ya sea de manera autodidacta, universitaria o una combinación de ambas.",
       },
     ],
   },
@@ -30,27 +30,27 @@ export const questionsData = [
       {
         text: "Me encanta.",
         response:
-          "Te gusta mucho la universidad, por lo que esa posibilidad está sobre la mesa. Aunque recordá que aún así, vas a tener que investigar por tu cuenta y no quedarte con lo enseñado ahí. El rubro requiere de que estemos constantemente aprendiendo, y ahí entra en juego lo autodidacta.",
+          "Te gusta mucho la universidad, por lo que esa posibilidad está sobre la mesa. Aunque recordá que aún así, vas a tener que investigar por tu cuenta, para fortalecer tus conocimientos. El rubro requiere de que estemos constantemente aprendiendo, y ahí entra en juego lo autodidacta.",
       },
       {
         text: "Me da igual.",
         response:
-          "La universidad te da igual. ¿Por qué? Ni idea. Si querés tener el título y una ventaja en el mercado actual, podrías considerarlo.",
+          "La universidad te da igual, pero si querés tener el título y una ventaja en el mercado actual, podrías considerarlo. Hoy en día, es más difícil entrar al rubro sin estar estudiando en una universidad, ¡pero no imposible!",
       },
       {
         text: "Me gusta, pero prefiero la modalidad virtual.",
         response:
-          "Es entendible que te guste la modalidad virtual universitaria. Es una de las mejores opciones cuando estás trabajando, y aún si no lo estuvieras, te sirve para escuchar las clases desde la comodidad de tu casa, inclusive aprovechando para cocinarte algo o limpiar. En Argentina, hay varias universidades que ofrecen licenciaturas, ingenierías y tecnicaturas a distancia, como la Universidad Tecnológica Nacional (UTN), la Universidad de La Plata (UNLP), La Universidad Nacional de Siglo 21 (U21) y la Universidad de Palermo (UP), por mencionar algunos ejemplos.",
+          "Es entendible que te guste la modalidad virtual universitaria. Es una de las mejores opciones cuando estás trabajando, y aún si no lo estuvieras, te sirve para escuchar las clases desde la comodidad de tu casa, inclusive aprovechando para cocinarte algo o limpiar. En Argentina, hay varias universidades que ofrecen licenciaturas, ingenierías y tecnicaturas a distancia, como la Universidad Tecnológica Nacional (UTN), la Universidad de La Plata (UNLP), La Universidad Nacional de Siglo 21 (U21) y la Universidad de Palermo (UP), por mencionar algunos ejemplos. Sin embargo, suelen ser aranceladas.",
       },
       {
         text: "Me gusta, pero prefiero la modalidad presencial.",
         response:
-          "Es entendible que prefieras la modalidad presencial universitaria. Mucha gente considera que aprende mejor en esos entornos y, además, podés aprovechar y hacer networking. En Argentina, hay muchas universidades (son mayoría) que la tienen, como la Universidad de Buenos Aires (UBA), la Universidad Nacional de Hurlingham (UNA HUR), la Universidad Tecnológica Nacional (UTN) y la Universidad Nacional de Tres de Febrero (UNTREF), por mencionar algunos ejemplos.",
+          "Es entendible que prefieras la modalidad presencial universitaria. Mucha gente considera que aprende mejor en esos entornos y, además, podés aprovechar y hacer networking (en la virtualidad también es posible, pero es más complicado) En Argentina, hay muchas universidades (son mayoría) que se manejan de esta forma, como la Universidad de Buenos Aires (UBA), la Universidad Nacional de Hurlingham (UNA HUR), la Universidad Tecnológica Nacional (UTN) y la Universidad Nacional de Tres de Febrero (UNTREF), por mencionar algunos ejemplos.",
       },
       {
         text: "La odio. No quiero estudiar en ese tipo de instituciones.",
         response:
-          "No sé por qué odiás a la universidad, pero ahí no me meto. Vos tendrás tus razones, y son respetables. En ese caso, podrías considerar hacer un esfuerzo para formarte y obtener una ventaja en el mercado laboral actual, o enfocarte en tu formación autodidacta, que también es válida. Podés hacer cursos, proyectos personales y rendir certificaciones que avalen tus conocimientos.",
+          "No sé por qué odiás a la universidad: vos tendrás tus razones. En ese caso, podrías considerar hacer un esfuerzo para formarte y obtener una ventaja en el mercado laboral actual (quizás, eligiendo una tecnicatura de dos o tres años, para no sentirte agobiado por la duración de una carrera más extensa, que en Argentina suelen durar de 5 a 8 años) o enfocarte en tu formación autodidacta, que también es válida. Podés hacer cursos, proyectos personales y rendir certificaciones que avalen tus conocimientos.",
       },
     ],
   },
@@ -59,7 +59,7 @@ export const questionsData = [
     answers: [
       {
         text: "Te dije que no trabajo.",
-        response: "Ninguna.",
+        response: "",
       },
       {
         text: "Entre 10 y 20hs semanales.",
@@ -74,17 +74,17 @@ export const questionsData = [
       {
         text: "Entre 25 y 35hs semanales.",
         response:
-          "Debido a que trabajás entre 25 y 35hs semanales, puede que se te dificulte ir a la universidad, ya sea virtual o presencial. En el caso de que quieras hacerlo, te recomiendo que te anotes en pocas materias y que lo lleves tranqui, a tu ritmo.",
+          "Debido a que trabajás entre 25 y 35hs semanales, puede que se te dificulte ir a la universidad, ya sea virtual o presencial. En el caso de que quieras hacerlo, te recomiendo que te anotes en pocas materias y que lo lleves con calma, a tu ritmo.",
       },
       {
         text: "Entre 35 y 40hs semanales.",
         response:
-          "Debido a que trabajás entre 35 y 50hs semanales, ir a la universidad va a ser un desafío, ya sea virtual o presencial. En el caso de que quieras hacerlo, te recomiendo que te anotes en 1 a 3 materias como máximo, y que lo lleves tranqui, a tu ritmo.",
+          "Debido a que trabajás entre 35 y 50hs semanales, ir a la universidad va a ser un desafío, ya sea virtual o presencial. En el caso de que quieras hacerlo, te recomiendo que te anotes en 1 a 3 materias como máximo, y que lo lleves con calma, a tu ritmo.",
       },
       {
         text: "Más de 40hs semanales.",
         response:
-          "Debido a que trabajás más de 40hs semanales, ir a la universidad va a ser un desafío, ya sea virtual o presencial, y seguramente te parezca imposible. En el caso de que quieras hacerlo, te recomiendo que te anotes en 1 a 2 materias como máximo, y que lo lleves tranqui, a tu ritmo. En el caso de ser posible, fijate de hablar con tus jefes y reducir tu jornada laboral en el caso de que quieras seguir estudiando (si está en tus posibilidades). Mientras tanto, puede ser que formarte de manera autodidacta sea la mejor opción.",
+          "Debido a que trabajás más de 40hs semanales, ir a la universidad va a ser un desafío, ya sea virtual o presencial, y seguramente te parezca imposible. En el caso de que quieras hacerlo, te recomiendo que te anotes en 1 a 2 materias como máximo, y que lo lleves con calma, a tu ritmo. Si es posible, considerá hablar con tus jefes y reducir tu jornada laboral en el caso de que quieras seguir estudiando. Mientras tanto, puede ser que formarte de manera autodidacta sea la mejor opción.",
       },
     ],
   },
@@ -120,22 +120,22 @@ export const questionsData = [
       {
         text: "Sí, en el pasado.",
         response:
-          "Dado a que hiciste un bootcamp en el pasado, asumo que tenés algunos conocimientos del área que te interesa. Sin embargo, hoy en día, muchos procesos de selección descartan a personas egresadas de los mismos. Te recomiendo que lo elimines de tu CV, Linkedln y portafolio, en caso de tenerlo. Ya fue.",
+          "Dado a que hiciste un bootcamp en el pasado, asumo que tenés algunos conocimientos del área que te interesa. Sin embargo, hoy en día, muchos procesos de selección descartan a personas egresadas de los mismos dado a la saturación del mercado actual. Te recomiendo que lo elimines de tu CV, Linkedln y portafolio, en caso de tenerlo, ya que hay empresas que filtran a los egresados de los mismos.",
       },
       {
         text: "No, nunca hice uno.",
         response:
-          "La verdad, no hacer un bootcamp no es algo negativo. Podés aprender por tu cuenta, en la universidad o de la forma que consideres más apropiada.",
+          "En el mercado laboral actual, los bootcamps no son valorados, por lo cual es algo positivo el no estar en uno ni haberlo hecho.",
       },
       {
         text: "Sí, estoy haciendo uno.",
         response:
-          "Dado a que estás haciendo un bootcamp, asumo que tenés algunos conocimientos del área que te interesa. Sin embargo, hoy en día, muchos procesos de selección descartan a personas egresadas de los mismos. Te recomiendo que no lo pongas en tu CV, Linkedln y portafolio, en caso de tenerlo. Hacelo para aprender, pero después desechalo.",
+          "Dado a que estás haciendo un bootcamp, asumo que tenés algunos conocimientos del área que te interesa. Sin embargo, hoy en día, muchos procesos de selección descartan a personas egresadas de los mismos. Te recomiendo que no lo pongas en tu CV, Linkedln y portafolio, en caso de tenerlo. Puede servirte para aprender, pero, lamentablemente, no estamos en una situación que valore ese tipo de instituciones y puede perjudicar a tu búsqueda laboral.",
       },
       {
         text: "No, y no pienso hacer uno.",
         response:
-          "Dado a que no pensás hacer un bootcamp, me parece una excelente decisión, ya que hoy en día, muchos procesos de selección descartan a personas egresadas de los mismos. Podés aprender por tu cuenta, en la universidad o de la forma que consideres más apropiada.",
+          "Evitar a los bootcamps hoy en día es una excelente elección, debido a que muchos procesos de selección descartan a personas egresadas de los mismos. Podés aprender por tu cuenta, en la universidad o de la forma que consideres más apropiada.",
       },
     ],
   },
@@ -145,22 +145,22 @@ export const questionsData = [
       {
         text: "Sí, estoy en la universidad.",
         response:
-          "¡Qué bien! Recordá que, a pesar de estar estudiando una carrera universitaria, tenés que investigar por tu cuenta y no quedarte con lo enseñado ahí. El rubro requiere de que estemos constantemente aprendiendo, y ahí entra en juego lo autodidacta. Es genial que tengas la posibilidad de estudiar, y si no tenés otras responsabilidades, ¡aprovechalo al máximo!",
+          "¡Qué bueno que estés en la universidad! Es un proceso exhaustivo y que demanda mucho tiempo, pero estás haciendo la diferencia en el mercado actual. Recordá investigar por tu cuenta y hacer proyectos, para no olvidarte de lo aprendido y tener ejemplos de tu trabajo.",
       },
       {
         text: "No, no estoy estudiando nada.",
         response:
-          "Ser autodidacta es una excelente opción en este rubro. Si bien no es para todos, es una habilidad que podés ir aprendiendo. Lo importante es que te pongas metas y objetivos, ya que te puede ayudar a organizarte. Si bien a veces se puede dificultar, sobre todo si tenés responsabilidades, es una excelente opción si sabés organizarte.",
+          "Siendo que actualmente no estás estudiando, espero que este cuestionario y el resto de los recursos de este sitio web te permitan elegir lo mejor para tu formación.",
       },
       {
         text: "Sí, estoy haciendo cursos.",
         response:
-          "¡Qué bien! Ser autodidacta es una excelente opción en este rubro. Si bien no es para todos, es una habilidad que podés ir aprendiendo. Lo importante es que te pongas metas y objetivos, ya que te puede ayudar a organizarte. Si bien a veces se puede dificultar, sobre todo si tenés responsabilidades, es una excelente opción si sabés organizarte. Recordá que, a pesar de estar haciendo cursos, tenés que investigar por tu cuenta y no quedarte con lo enseñado ahí.",
+          "Hacer cursos es una actividad bastante autodidacta y a su vez, similar con respecto a la universidad. Sin embargo, es muy fácil olvidar lo aprendido, así que intentá hacer proyectos personales para reforzar tus conocimientos (y también tener contenido para tu portafolio).",
       },
       {
         text: "Sí, estudio por mi cuenta.",
         response:
-          "¡Qué bien! Ser autodidacta es una excelente opción en este rubro. Si bien no es para todos, es una habilidad que podés ir aprendiendo. Lo importante es que te pongas metas y objetivos, ya que te puede ayudar a organizarte. Si bien a veces se puede dificultar, sobre todo si tenés responsabilidades, es una excelente opción si sabés organizarte.",
+          "Ser autodidacta es una excelente opción en este rubro. Sin embargo, es muy fácil olvidar lo aprendido, así que intentá hacer proyectos personales para reforzar tus conocimientos (y también tener contenido para tu portafolio).",
       },
     ],
   },
