@@ -25,6 +25,11 @@ const Navbar = () => {
             </a>
           </li>
           <li>
+            <a href="./orientacion" className={linkClasses.join(" ")}>
+              Orientación
+            </a>
+          </li>
+          <li>
             <a href="/info" className={linkClasses.join(" ")}>
               Información
             </a>

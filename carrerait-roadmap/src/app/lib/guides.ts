@@ -20,6 +20,7 @@ export function getGuideMeta(slug: string): GuideMeta {
   return {
     title: data.title,
     description: data.description,
+    slug,
   };
 }
 
