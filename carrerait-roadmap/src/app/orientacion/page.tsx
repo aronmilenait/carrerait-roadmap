@@ -14,16 +14,17 @@ export default async function Orientation() {
   const guidesMeta = getAllGuidesMeta();
 
   return (
-    <main className="bg-sky-950 text-white p-24">
-      <h1 className="text-4xl font-extrabold text-sky-50 mb-4 text-center">
+    <main className="min-h-screen bg-sky-950 text-white p-8 md:p-24">
+      <h1 className="text-4xl font-extrabold text-sky-50 mb-12 text-center">
         Orientación
       </h1>
-      <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+      <div className="space-y-12">
         {guidesMeta.map((guide) => (
           <Link key={guide.slug} href={`/orientacion/${guide.slug}`}>
-            <div className="block p-4 border rounded-lg hover:bg-gray-100">
-              <h2 className="text-xl font-semibold">{guide.title}</h2>
-              <p className="text-gray-600">{guide.description}</p>
+            <div className="bg-sky-800 hover:bg-sky-700 transition-colors duration-300 p-6 rounded-lg shadow-lg cursor-pointer max-w-2xl mx-auto">
+              <h2 className="text-3xl font-bold mb-4">{guide.title}</h2>
+              <p className="text-white mb-4">{guide.description}</p>
+              <div className="text-white text-sm">Leer más...</div>
             </div>
           </Link>
         ))}
