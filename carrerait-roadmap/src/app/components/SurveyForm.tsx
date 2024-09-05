@@ -26,8 +26,8 @@ const SurveyForm = ({
                   onClick={() => onAnswerClick(questionIndex, answerIndex)}
                   className={`py-2 px-4 rounded-lg w-full text-left ${
                     selectedAnswers[questionIndex] === answerIndex
-                      ? "bg-sky-300 text-black border-2 border-sky-500" 
-                      : "bg-sky-700 text-white"
+                      ? "bg-teal-900 text-white border-2 border-teal-800 font-semibold" 
+                      : "bg-teal-700 text-white"
                   }`}
                   aria-pressed={selectedAnswers[questionIndex] === answerIndex}
                 >
