@@ -25,7 +25,7 @@ const SurveyResults = ({ selectedAnswers, questions }: SurveyResultsProps) => {
           return null;
         })}
       </div>
-      <div className="text-center mt-8 bg-sky-600 rounded-lg p-4">
+      <div className="text-center mt-8 bg-teal-600 rounded-lg p-4">
         <p className="text-white text-lg">
           ¡Espero que estas respuestas te hayan sido útiles! <br />
           En CarreraIT, también tenemos{" "}
