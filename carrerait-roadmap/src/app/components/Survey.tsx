@@ -33,9 +33,9 @@ const Survey = () => {
   };
 
   return (
-    <section className="bg-sky-950 text-white space-y-8 py-10 px-4 max-w-2xl mx-auto rounded-lg">
+    <section className="bg-grey-950 text-white space-y-8 py-10 px-4 max-w-2xl mx-auto rounded-lg">
       <div id="survey-div">
-        <h1 className="text-4xl font-bold mb-6 text-center">Cuestionario</h1>
+        <h1 className="text-teal-400 text-4xl font-bold mb-6 text-center">Cuestionario</h1>
         {!isFinished ? (
           <>
             <SurveyForm
@@ -46,7 +46,7 @@ const Survey = () => {
             />
             <button
               onClick={handleFinishClick}
-              className="mt-8 bg-sky-500 py-2 px-4 rounded-lg text-lg font-semibold hover:bg-sky-600 transition duration-300 w-full"
+              className="mt-8 bg-teal-800 py-2 px-4 rounded-lg text-lg font-semibold hover:bg-teal-900 transition duration-300 w-full"
             >
               Finalizar
             </button>
