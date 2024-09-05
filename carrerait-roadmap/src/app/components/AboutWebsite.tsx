@@ -3,7 +3,7 @@ const AboutWebsite = () => {
     "text-base",
     "md:text-lg",
     "leading-relaxed",
-    "text-gray-200",
+    "text-white",
     "mb-6",
   ].join(" ");
 
@@ -13,7 +13,7 @@ const AboutWebsite = () => {
     "text-left",
     "text-base",
     "md:text-lg",
-    "text-gray-200",
+    "text-white",
     "space-y-3",
     "mb-6",
   ].join(" ");

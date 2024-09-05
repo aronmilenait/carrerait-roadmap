@@ -8,7 +8,7 @@ const AboutMe = () => {
     "text-base",
     "md:text-lg",
     "leading-relaxed",
-    "text-gray-200",
+    "text-white",
     "mb-6",
   ].join(" ");
 
