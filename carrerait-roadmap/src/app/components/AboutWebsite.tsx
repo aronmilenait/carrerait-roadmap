@@ -1,6 +1,7 @@
 const AboutWebsite = () => {
   const paragraphClasses = [
-    "text-xl",
+    "text-base",
+    "md:text-lg",
     "leading-relaxed",
     "text-white",
     "mb-6",
@@ -10,90 +11,56 @@ const AboutWebsite = () => {
     "list-disc",
     "list-inside",
     "text-left",
-    "text-xl",
-    "space-y-3",
-  ].join(" ");
-
-  const quoteClasses = [
+    "text-base",
+    "md:text-lg",
     "text-white",
-    "italic",
-    "text-xl",
-    "leading-relaxed",
-    "border-l-4",
-    "pl-4",
-    "border-sky-100",
+    "space-y-3",
+    "mb-6",
   ].join(" ");
 
   return (
-    <section className="bg-sky-950 text-white space-y-8 py-10 px-4 max-w-2xl mx-auto rounded-lg">
-      <h1 className="text-4xl font-extrabold text-sky-50 mb-4 text-center">
-        Sobre Carrera IT Roadmap
+    <section className="bg-gray-900 text-white mx-auto rounded-lg p-8 sm:p-6 max-w-full sm:max-w-lg md:max-w-2xl">
+      <h1 className="text-4xl sm:text-3xl md:text-5xl text-teal-400 font-extrabold text-sky-50 mb-6 text-center">
+        Sobre Carrera IT
       </h1>
-
       <p className={paragraphClasses}>
-        Últimamente me di cuenta de que muchas personas que aspiran a trabajar o
-        que ya trabajan en IT tienen el mismo interrogante:
+        Creé este proyecto después de notar una problemática sin solución: todos
+        los días, muchas personas preguntan en comunidades como r/devsarg o
+        r/programación:
       </p>
-
-      <p className={paragraphClasses}>
-        <span className={quoteClasses}>
-          ¿Debería empezar a formarme o retomar mis estudios en la universidad,
-          o debería hacerlo de manera autodidacta?
-        </span>
-      </p>
-
-      <p className={paragraphClasses}>
-        Esta pregunta se suma a muchas otras, como por ejemplo:
-      </p>
-
-      <p className={paragraphClasses}>
-        <span className={quoteClasses}>
-          Si elijo la universidad, ¿es mejor una tecnicatura, una licenciatura o
-          una ingeniería? ¿Me conviene una universidad pública o privada?
-        </span>
-      </p>
-
-      <p className={paragraphClasses}>
-        <span className={quoteClasses}>
-          Si quiero formarme de manera autodidacta, ¿cómo debería hacerlo?
-        </span>
-      </p>
-
-      <p className={paragraphClasses}>
-        Además, cada persona tiene <b>situaciones muy particulares.</b> Por
-        ejemplo, hay quienes trabajan todo el día, y otros que no, o personas
-        que ya están en el rubro porque se formaron de manera autodidacta pero
-        quieren mejorar su carrera.
-      </p>
-
-      <h2 className="text-4xl font-extrabold text-sky-100 text-center">
-        ¿Y qué respuesta puede darme un cuestionario?
-      </h2>
-
-      <p className={paragraphClasses}>Es que este no es cualquier quiz:</p>
-
       <ul className={listClasses}>
         <li>
-          Cada respuesta se tiene en cuenta a la hora de darte la devolución.
+          Cómo retomar sus estudios universitarios después de haberlos
+          abandonado por cuestiones laborales, estando ya en el rubro.
         </li>
-        <li>
-          Son varias preguntas, enfocadas en los aspectos más importantes para
-          decidir cómo avanzar con tu carrera profesional.
-        </li>
-        <li>
-          No necesitás registrarte y es anónimo. Tus respuestas tampoco son
-          almacenadas.
-        </li>
+        <li>Cómo formarse de manera autodidacta.</li>
+        <li>Qué hacer con sus estudios según sus situaciones personales.</li>
+        <li>Qué carrera seguir y dónde estudiarla.</li>
       </ul>
-
       <p className={paragraphClasses}>
-        Sin embargo, no tomes tu respuesta como una verdad absoluta e
-        inmodificable. La idea es que <b>reflexiones sobre tus posibilidades</b>
-        y limitaciones a medida que respondés, y que <b>tomes una decisión</b>
-        considerando la respuesta brindada al final.
-        <br />
-        Todo lo que vas a leer fue escrito por mí, no por una IA, considerando
-        qué es lo mejor para cada caso y enfocándome en cada respuesta.
+        Estos son solo algunos ejemplos de publicaciones que veo a diario.
+        Muchas de ellas quedan olvidadas y sin respuesta. Para que todos puedan
+        tenerla, creé un cuestionario donde, en base a tu situación personal,
+        vas a obtener una devolución que te va a recomendar ciertas cosas,
+        teniendo en cuenta también el mercado laboral actual.
+      </p>
+      <p className={paragraphClasses}>
+        Pero me parecía poco. Sentía que faltaba algo, y aunque la respuesta
+        obtenida no es absoluta, sino que busca ayudar a tomar una decisión,
+        decidí agregar más funcionalidades.
+      </p>
+      <p className={paragraphClasses}>
+        Además del cuestionario, CarreraIT cuenta con una sección de
+        Orientación, donde vas a poder encontrar guías útiles si querés trabajar
+        en el rubro o si ya estás en él, especialmente si estás estudiando (de
+        manera autodidacta o en una institución) o si querés hacerlo. También
+        hay una sección de Recursos gratuitos, donde vas a encontrar material
+        interesante para tu formación autodidacta.
+      </p>
+      <p className={paragraphClasses}>
+        La idea es que sea un espacio para todos los que nos dedicamos a IT,
+        pero como soy desarrolladora, probablemente me enfoque más en esa área
+        en general.
       </p>
     </section>
   );
