@@ -69,7 +69,7 @@ const AboutMe = () => {
       </p>
       <p className={paragraphClasses}>
         Pronto voy a incorporar un formulario de contacto, pero mientras tanto,
-        si tenés alguna duda o sugerencia para el proyecto, ¡no dudes en
+        si tenés alguna duda o sugerencia, ¡no dudes en
         escribirme!
       </p>
       <div className="flex flex-wrap justify-center space-x-8 sm:space-x-6 md:space-x-10 mb-8">
