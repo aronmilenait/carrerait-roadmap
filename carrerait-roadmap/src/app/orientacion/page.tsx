@@ -14,17 +14,21 @@ export default async function Orientation() {
   const guidesMeta = getAllGuidesMeta();
 
   return (
-    <main className="min-h-screen bg-sky-950 text-white p-8 md:p-24">
-      <h1 className="text-4xl font-extrabold text-sky-50 mb-12 text-center">
+    <main className="min-h-screen bg-gray-900 text-white p-4 sm:p-6 md:p-8 lg:p-24">
+      <h1 className="text-3xl sm:text-4xl md:text-5xl text-teal-400 font-extrabold mb-6 text-center">
         Orientación
       </h1>
-      <div className="space-y-12">
+      <div className="space-y-8">
         {guidesMeta.map((guide) => (
           <Link key={guide.slug} href={`/orientacion/${guide.slug}`}>
-            <div className="bg-sky-800 hover:bg-sky-700 transition-colors duration-300 p-6 rounded-lg shadow-lg cursor-pointer max-w-2xl mx-auto">
-              <h2 className="text-3xl font-bold mb-4">{guide.title}</h2>
-              <p className="text-white mb-4">{guide.description}</p>
-              <div className="text-white text-sm">Leer más...</div>
+            <div className="bg-teal-800 hover:bg-teal-700 transition-colors duration-300 p-4 sm:p-6 rounded-lg shadow-lg cursor-pointer max-w-xl sm:max-w-2xl mx-auto">
+              <h2 className="text-2xl sm:text-3xl font-bold mb-2 sm:mb-4">
+                {guide.title}
+              </h2>
+              <p className="text-white mb-4 text-base sm:text-lg">
+                {guide.description}
+              </p>
+              <div className="text-teal-50 text-sm sm:text-lg">Leer más...</div>
             </div>
           </Link>
         ))}
