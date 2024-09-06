@@ -16,6 +16,11 @@ const AboutWebsite = () => {
     "text-white",
     "space-y-3",
     "mb-6",
+    "font-semibold",
+    "border-teal-600",
+    "border-2",
+    "p-4",
+    "rounded-lg",
   ].join(" ");
 
   return (
@@ -25,8 +30,8 @@ const AboutWebsite = () => {
       </h1>
       <p className={paragraphClasses}>
         Creé este proyecto después de notar una problemática sin solución: todos
-        los días, muchas personas preguntan en comunidades como r/devsarg o
-        r/programación:
+        los días, muchas personas preguntan en comunidades como <i>r/devsarg</i>{" "}
+        o<i>r/programación</i>:
       </p>
       <ul className={listClasses}>
         <li>
@@ -38,29 +43,28 @@ const AboutWebsite = () => {
         <li>Qué carrera seguir y dónde estudiarla.</li>
       </ul>
       <p className={paragraphClasses}>
-        Estos son solo algunos ejemplos de publicaciones que veo a diario.
-        Muchas de ellas quedan olvidadas y sin respuesta. Para que todos puedan
-        tenerla, creé un cuestionario donde, en base a tu situación personal,
-        vas a obtener una devolución que te va a recomendar ciertas cosas,
-        teniendo en cuenta también el mercado laboral actual.
+        Al ser tantas publicaciones de este estilo, quedan olvidadas y sin
+        respuesta. Para que todos puedan tener una, creé el <b>cuestionario.</b>{" "}
+        Así, todos tendrían una, basándose en ciertos parámetros. No brinda una{" "}
+        <b>respuesta absoluta</b>, sino que te aconseja en base a tus
+        respuestas.
       </p>
       <p className={paragraphClasses}>
-        Pero me parecía poco. Sentía que faltaba algo, y aunque la respuesta
-        obtenida no es absoluta, sino que busca ayudar a tomar una decisión,
-        decidí agregar más funcionalidades.
+        Pero me parecía poco: sentía que faltaba algo.
       </p>
       <p className={paragraphClasses}>
-        Además del cuestionario, CarreraIT cuenta con una sección de
-        Orientación, donde vas a poder encontrar guías útiles si querés trabajar
-        en el rubro o si ya estás en él, especialmente si estás estudiando (de
-        manera autodidacta o en una institución) o si querés hacerlo. También
-        hay una sección de Recursos gratuitos, donde vas a encontrar material
-        interesante para tu formación autodidacta.
+        Por eso, creé dos secciones más: una de <b>orientación</b>, con guías
+        útiles, y otra de <b>recursos</b>, donde sólo comparto aquellos que son
+        gratuitos.
       </p>
       <p className={paragraphClasses}>
-        La idea es que sea un espacio para todos los que nos dedicamos a IT,
-        pero como soy desarrolladora, probablemente me enfoque más en esa área
-        en general.
+        Mi objetivo con este proyecto es que sea útil para quienes trabajamos en
+        IT. Si bien soy de Argentina y vas a notar que menciono instituciones de
+        acá, la mayoría de los recursos van a servirte.
+      </p>
+      <p className={paragraphClasses}>
+        <b>Actualmente, el proyecto está siendo desarrollado.</b> A medida que pase el tiempo,
+        voy a incorporar más guías y material gratuito.
       </p>
     </section>
   );
