@@ -21,7 +21,7 @@ export default async function Orientation() {
       <div className="space-y-8">
         {guidesMeta.map((guide) => (
           <Link key={guide.slug} href={`/orientacion/${guide.slug}`}>
-            <div className="bg-teal-800 hover:bg-teal-700 transition-colors duration-300 p-4 sm:p-6 rounded-lg shadow-lg cursor-pointer max-w-xl sm:max-w-2xl mx-auto">
+            <div className="bg-teal-800 hover:bg-teal-700 transition-colors duration-300 p-4 sm:p-6 rounded-lg shadow-lg cursor-pointer max-w-xl sm:max-w-2xl mx-auto mb-8">
               <h2 className="text-2xl sm:text-3xl font-bold mb-2 sm:mb-4">
                 {guide.title}
               </h2>
