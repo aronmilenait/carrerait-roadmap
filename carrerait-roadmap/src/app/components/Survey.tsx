@@ -35,7 +35,9 @@ const Survey = () => {
   return (
     <section className="bg-grey-950 text-white space-y-8 py-10 px-4 max-w-2xl mx-auto rounded-lg">
       <div id="survey-div">
-        <h1 className="text-teal-400 text-4xl font-bold mb-6 text-center">Cuestionario</h1>
+        <h1 className="text-3xl sm:text-4xl md:text-5xl text-teal-400 font-extrabold mb-6 text-center">
+          Cuestionario
+        </h1>
         {!isFinished ? (
           <>
             <SurveyForm
