@@ -57,6 +57,11 @@ const Navbar = () => {
             </a>
           </li>
           <li>
+            <a href="/recursos" className={linkClasses.join(" ")}>
+              Recursos
+            </a>
+          </li>
+          <li>
             <a href="/info" className={linkClasses.join(" ")}>
               Información
             </a>
