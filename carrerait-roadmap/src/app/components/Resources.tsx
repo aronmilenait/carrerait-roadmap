@@ -6,6 +6,9 @@ const Resources = () => {
       <h1 className="text-4xl sm:text-3xl md:text-5xl text-teal-400 font-extrabold mb-8 text-center">
         Recursos
       </h1>
+      <p className="text-2xl font-bold mb-8 text-center">
+        Todos son gratuitos y de excelente calidad.
+      </p>
       <div className="space-y-8">
         {resources.map((resource, index) => (
           <div
