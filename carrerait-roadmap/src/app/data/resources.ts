@@ -10,14 +10,14 @@ export const resources = [
     title: "Píldoras informáticas",
     type: "cursos",
     description:
-      "Cursos de desarrrollo de software en español de excelente calidad.",
+      "Cursos de desarrrollo de software en español.",
     link: "https://www.youtube.com/@pildorasinformaticas",
   },
   {
     title: "freeCodeCamp",
     type: "cursos",
     description:
-      "Cursos variados de programación, ideales para empezar en el rubro, en inglés y español.",
+      "Cursos variados de programación, ideales para empezar en el rubro.",
     link: "https://www.freecodecamp.org/learn/",
   },
 ];
