@@ -1,16 +1,23 @@
 export const resources = [
   {
     title: "Open Source University (OSSU): Computer Science",
-    type: "course",
+    type: "carrera",
     description:
-      "Estudiá ciencias de la computación en inglés de manera gratuita y autodidacta.",
+      "Estudiá ciencias de la computación en inglés de manera autodidacta.",
     link: "https://ossu.firebaseapp.com/",
   },
   {
     title: "Píldoras informáticas",
-    type: "youtube",
+    type: "cursos",
     description:
-      "Cursos gratuitos de desarrrollo de software en español de excelente calidad.",
+      "Cursos de desarrrollo de software en español de excelente calidad.",
     link: "https://www.youtube.com/@pildorasinformaticas",
+  },
+  {
+    title: "freeCodeCamp",
+    type: "cursos",
+    description:
+      "Cursos variados de programación, ideales para empezar en el rubro, en inglés y español.",
+    link: "https://www.freecodecamp.org/learn/",
   },
 ];
