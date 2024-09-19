@@ -9,8 +9,7 @@ export const resources = [
   {
     title: "Píldoras informáticas",
     type: "cursos",
-    description:
-      "Cursos de desarrrollo de software en español.",
+    description: "Cursos de desarrrollo de software en español.",
     link: "https://www.youtube.com/@pildorasinformaticas",
   },
   {
@@ -23,6 +22,14 @@ export const resources = [
   {
     title: "Refactoring Guru",
     type: "sitio web",
-    description: "Aprendé sobre patrones de diseño, principios SOLID y refactorizción."
-  }
+    description:
+      "Aprendé sobre patrones de diseño, principios SOLID y refactorizción.",
+  },
+  {
+    title: "Linux Professional Institute",
+    type: "libros",
+    description:
+      "Libros en formato PDF sobre GNU/Linux, Open Source y desarrollo web.",
+    link: "https://learning.lpi.org/es/learning-materials/learning-materials/",
+  },
 ];
