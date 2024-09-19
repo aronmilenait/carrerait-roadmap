@@ -32,4 +32,10 @@ export const resources = [
       "Libros en formato PDF sobre GNU/Linux, Open Source y desarrollo web.",
     link: "https://learning.lpi.org/es/learning-materials/learning-materials/",
   },
+  {
+    title: "Roadmap.sh",
+    type: "informacion",
+    description: "Roadmaps para organizar tu aprendizaje según roles o tecnologías.",
+    link: "https://roadmap.sh/"
+  }
 ];
