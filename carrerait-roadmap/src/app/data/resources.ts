@@ -20,4 +20,9 @@ export const resources = [
       "Cursos variados de programación, ideales para empezar en el rubro.",
     link: "https://www.freecodecamp.org/learn/",
   },
+  {
+    title: "Refactoring Guru",
+    type: "sitio web",
+    description: "Aprendé sobre patrones de diseño, principios SOLID y refactorizción."
+  }
 ];
