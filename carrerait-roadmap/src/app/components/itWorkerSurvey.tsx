@@ -1,14 +1,15 @@
 "use client";
 
 import { useState } from "react";
-import { questionsData } from "../survey/questionsData";
+import { itWorkerQuestions } from "../survey/itWorkerQuestions";
 import SurveyForm from "./SurveyForm";
 import SurveyResults from "./SurveyResults";
 
-const Survey = () => {
+const ItWorkerSurvey = () => {
   const [selectedAnswers, setSelectedAnswers] = useState<(number | null)[]>(
-    Array(questionsData.length).fill(null)
+    Array(itWorkerQuestions.length).fill(null)
   );
+
   const [isFinished, setIsFinished] = useState(false);
   const [error, setError] = useState<string | null>(null);
 
@@ -22,8 +23,11 @@ const Survey = () => {
   };
 
   const handleFinishClick = () => {
-    const allAnswered = selectedAnswers.every((answer) => answer !== null);
-    if (allAnswered) {
+    const everythingAnswered = selectedAnswers.every(
+      (answer) => answer !== null
+    );
+
+    if (everythingAnswered) {
       setIsFinished(true);
     } else {
       setError(
@@ -41,7 +45,7 @@ const Survey = () => {
         {!isFinished ? (
           <>
             <SurveyForm
-              questions={questionsData}
+              questions={itWorkerQuestions}
               selectedAnswers={selectedAnswers}
               onAnswerClick={handleAnswerClick}
               error={error}
@@ -56,7 +60,7 @@ const Survey = () => {
         ) : (
           <SurveyResults
             selectedAnswers={selectedAnswers}
-            questions={questionsData}
+            questions={itWorkerQuestions}
           />
         )}
       </div>
@@ -64,4 +68,4 @@ const Survey = () => {
   );
 };
 
-export default Survey;
+export default ItWorkerSurvey;
