@@ -26,8 +26,8 @@ const SurveyForm = ({
   return (
     <div>
       {questions.map((question, questionIndex) => (
-        <div key={questionIndex} className="mb-4">
-          <p className="text-xl mb-4">{question.question}</p>
+        <div key={questionIndex} className="mb-12">
+          <p className="text-xl text-center mb-4">{question.question}</p>
           <ul className="space-y-2">
             {question.answers.map((answer, answerIndex) => (
               <li key={answerIndex}>
@@ -35,8 +35,8 @@ const SurveyForm = ({
                   onClick={() => onAnswerClick(questionIndex, answerIndex)}
                   className={`py-2 px-4 rounded-lg w-full text-left ${
                     selectedAnswers[questionIndex] === answerIndex
-                      ? "bg-teal-900 text-white border-2 border-teal-800 font-semibold"
-                      : "bg-teal-700 text-white"
+                      ? "bg-teal-950 text-white font-semibold text-md"
+                      : "bg-teal-800 text-white font-semibold text-md"
                   }`}
                   aria-pressed={selectedAnswers[questionIndex] === answerIndex}
                 >
