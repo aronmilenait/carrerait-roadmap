@@ -40,7 +40,7 @@ const ItWorkerSurvey = () => {
     <section className="bg-grey-950 text-white space-y-8 py-10 px-4 max-w-2xl mx-auto rounded-lg">
       <div id="survey-div">
         <h1 className="text-3xl sm:text-4xl md:text-5xl text-teal-400 font-extrabold mb-6 text-center">
-          Cuestionario de Trabajadores de IT
+          Cuestionario
         </h1>
         {!isFinished ? (
           <>
