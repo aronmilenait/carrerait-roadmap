@@ -1,9 +1,18 @@
-import React from "react";
 import { questionsData } from "../survey/questionsData";
+
+interface Answer {
+  option: string;
+  response: string;
+}
+
+interface Question {
+  question: string;
+  answers: Answer[];
+}
 
 interface SurveyResultsProps {
   selectedAnswers: (number | null)[];
-  questions: typeof questionsData;
+  questions: Question[];
 }
 
 const SurveyResults = ({ selectedAnswers, questions }: SurveyResultsProps) => {

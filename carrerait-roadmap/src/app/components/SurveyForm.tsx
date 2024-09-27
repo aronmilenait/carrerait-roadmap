@@ -1,8 +1,13 @@
 "use client";
-import { questionsData } from "../survey/questionsData";
 
 interface SurveyFormProps {
-  questions: typeof questionsData;
+  questions: Array<{
+    question: string;
+    answers: Array<{
+      option: string;
+      response: string | ((experience: string) => string);
+    }>;
+  }>;
   selectedAnswers: (number | null)[];
   onAnswerClick: (questionIndex: number, answerIndex: number) => void;
   error: string | null;
@@ -26,19 +31,21 @@ const SurveyForm = ({
                   onClick={() => onAnswerClick(questionIndex, answerIndex)}
                   className={`py-2 px-4 rounded-lg w-full text-left ${
                     selectedAnswers[questionIndex] === answerIndex
-                      ? "bg-teal-900 text-white border-2 border-teal-800 font-semibold" 
+                      ? "bg-teal-900 text-white border-2 border-teal-800 font-semibold"
                       : "bg-teal-700 text-white"
                   }`}
                   aria-pressed={selectedAnswers[questionIndex] === answerIndex}
                 >
-                  {answer.text}
+                  {answer.option}
                 </button>
               </li>
             ))}
           </ul>
         </div>
       ))}
-      {error && <div className="text-red-400 font-bold text-center mt-4">{error}</div>}
+      {error && (
+        <div className="text-red-400 font-bold text-center mt-4">{error}</div>
+      )}
     </div>
   );
 };
