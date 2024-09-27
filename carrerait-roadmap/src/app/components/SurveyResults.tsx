@@ -1,8 +1,6 @@
-import { questionsData } from "../survey/questionsData";
-
 interface Answer {
   option: string;
-  response: string;
+  response: string | ((experience: string) => string);
 }
 
 interface Question {
@@ -27,7 +25,12 @@ const SurveyResults = ({ selectedAnswers, questions }: SurveyResultsProps) => {
                 key={questionIndex}
                 className="text-white text-lg p-2 rounded-lg"
               >
-                {questions[questionIndex].answers[answerIndex].response}
+                {typeof questions[questionIndex].answers[answerIndex]
+                  .response === "function"
+                  ? questions[questionIndex].answers[answerIndex].response(
+                      "some experience value"
+                    )
+                  : questions[questionIndex].answers[answerIndex].response}
               </p>
             );
           }

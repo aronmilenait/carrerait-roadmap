@@ -1,13 +1,17 @@
 "use client";
 
+interface Answer {
+  option: string;
+  response: string | ((experience: string) => string);
+}
+
+interface Question {
+  question: string;
+  answers: Answer[];
+}
+
 interface SurveyFormProps {
-  questions: Array<{
-    question: string;
-    answers: Array<{
-      option: string;
-      response: string | ((experience: string) => string);
-    }>;
-  }>;
+  questions: Question[];
   selectedAnswers: (number | null)[];
   onAnswerClick: (questionIndex: number, answerIndex: number) => void;
   error: string | null;
