@@ -23,17 +23,7 @@ const ItWorkerSurvey = () => {
   };
 
   const handleFinishClick = () => {
-    const everythingAnswered = selectedAnswers.every(
-      (answer) => answer !== null
-    );
-
-    if (everythingAnswered) {
-      setIsFinished(true);
-    } else {
-      setError(
-        "Respondé a todas las preguntas antes de hacer click en finalizar :)"
-      );
-    }
+    setIsFinished(true);
   };
 
   return (
