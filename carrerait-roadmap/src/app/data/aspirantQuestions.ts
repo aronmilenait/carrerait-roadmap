@@ -80,16 +80,16 @@ export const aspirantQuestions = [
   },
   {
     question:
-      "¿Tenés alguna 'responsabilidad' que sentís que te impide seguir formándote?",
+      "¿Tenés alguna responsabilidad que te impide estudiar?",
     answers: [
       {
-        option: "No, no tengo ninguna responsabilidad que me haga sentir así.",
+        option: "No, no tengo ninguna responsabilidad (que me haga sentir así).",
         response:
           "Por otro lado, está bueno que no tengas responsabilidades que te impidan seguir estudiando (o que las tengas, pero que no lo veas como un inconveniente). Independientemente de lo que elijas, sabés que vas a poder hacerlo. (O que, al menos, estás dispuesto a intentarlo).",
       },
       {
         option:
-          "Tengo hijos (tranqui, no te vuelve mal padre/madre elegir esta opción)",
+          "Tengo hijos.",
         response:
           "Tener hijos, sobre todo si son niños, puede dificultar un poco las cosas: llevarlos al jardín o al colegio, cocinarles, visitas al médico y bueno, todo lo que implica ser padre/madre. Lo bueno es que muchas personas logran estudiar teniendo esta responsabilidad. Si vas a ir a la universidad, quizás tengas que anotarte en menos materias, y si vas a ser autodidacta, es cuestión de que organices tus horarios de la forma que mejor te resulte.",
       },
