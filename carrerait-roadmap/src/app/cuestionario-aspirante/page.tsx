@@ -1,7 +1,7 @@
-import Survey404 from "../components/Survey/Survey404";
+import AspirantSurvey from "../components/Survey/AspirantSurvey";
 
-export default function AspirantSurvey404() {
+export default function AspirantSurveyPage() {
   return (
-    <Survey404 />
+    <AspirantSurvey />
   );
 }
