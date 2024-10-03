@@ -29,42 +29,30 @@ const AboutWebsite = () => {
         Sobre Carrera IT
       </h1>
       <p className={paragraphClasses}>
-        Creé este proyecto después de notar una problemática sin solución: todos
-        los días, muchas personas preguntan en comunidades como <i>r/devsarg</i>{" "}
-        o<i>r/programación</i>:
-      </p>
-      <ul className={listClasses}>
-        <li>
-          Cómo retomar sus estudios universitarios después de haberlos
-          abandonado por cuestiones laborales, estando ya en el rubro.
-        </li>
-        <li>Cómo formarse de manera autodidacta.</li>
-        <li>Qué hacer con sus estudios según sus situaciones personales.</li>
-        <li>Qué carrera seguir y dónde estudiarla.</li>
-      </ul>
-      <p className={paragraphClasses}>
-        Al ser tantas publicaciones de este estilo, quedan olvidadas y sin
-        respuesta. Para que todos puedan tener una, creé el <b>cuestionario.</b>{" "}
-        Así, todos tendrían una, basándose en ciertos parámetros. No brinda una{" "}
-        <b>respuesta absoluta</b>, sino que te aconseja en base a tus
-        respuestas.
+        Decidí crear este proyecto para solucionar una problemática: la falta de
+        respuestas sobre cómo avanzar en tu carrera de IT en base a ciertos
+        factores y situaciones personales.
       </p>
       <p className={paragraphClasses}>
-        Pero me parecía poco: sentía que faltaba algo.
+        Todos los días, veía como personas en distintas comunidades preguntaban
+        cómo seguir formándose o mejorando dentro del rubro. Esas publicaciones
+        quedaban sin responder debido a lo repetitivo que se tornaba para los
+        demás miembros, siendo que se trataba de varias por día o semana.
       </p>
       <p className={paragraphClasses}>
-        Por eso, creé dos secciones más: una de <b>orientación</b>, con guías
-        útiles, y otra de <b>recursos</b>, donde sólo comparto aquellos que son
-        gratuitos.
+        El objetivo de CarreraIT es ser un espacio para todos los que estamos
+        interesados o trabajando en IT.
       </p>
       <p className={paragraphClasses}>
-        Mi objetivo con este proyecto es que sea útil para quienes trabajamos en
-        IT. Si bien soy de Argentina y vas a notar que menciono instituciones de
-        acá, la mayoría de los recursos van a servirte.
+        Mediante cuestionarios divididos en base a tres factores importantes (si
+        estás trabajando en IT, si sos aspirante o si fuiste desvinculado), vas
+        a obtener recomendaciones personalizadas sobre cómo avanzar con tu
+        carrera.
       </p>
       <p className={paragraphClasses}>
-        <b>Actualmente, el proyecto está siendo desarrollado.</b> A medida que pase el tiempo,
-        voy a incorporar más guías y material gratuito.
+        Además de los cuestionarios, podés encontrar{" "}
+        <a href="/orientacion" className="font-bold">guías de orientación</a> y{" "}
+        <a href="/recursos" className="font-bold">recursos</a> gratuitos de excelente calidad.
       </p>
     </section>
   );
