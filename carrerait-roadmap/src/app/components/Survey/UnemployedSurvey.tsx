@@ -2,8 +2,8 @@
 
 import { useState } from "react";
 import { unemployedQuestions } from "@/app/data/unemployedQuestions";
-import AspirantSurveyForm from "./AspirantSurveyForm";
-import AspirantSurveyResults from "./AspirantSurveyResults";
+import SurveyForm from "./SurveyForm";
+import UnemployedSurveyResults from "./UnemployedSurveyResults";
 
 const UnemployedSurvey = () => {
   const [selectedAnswers, setSelectedAnswers] = useState<(number | null)[]>(
@@ -34,7 +34,7 @@ const UnemployedSurvey = () => {
         </h1>
         {!isFinished ? (
           <>
-            <AspirantSurveyForm
+            <SurveyForm
               questions={unemployedQuestions}
               selectedAnswers={selectedAnswers}
               onAnswerClick={handleAnswerClick}
@@ -48,7 +48,7 @@ const UnemployedSurvey = () => {
             </button>
           </>
         ) : (
-          <AspirantSurveyResults
+          <UnemployedSurveyResults
             selectedAnswers={selectedAnswers}
             questions={unemployedQuestions}
           />
