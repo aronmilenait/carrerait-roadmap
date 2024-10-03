@@ -23,7 +23,7 @@ const SurveySelector = () => {
             Quiero trabajar en IT
           </a>
           <a
-            href="/cuestionario-aspirante"
+            href="/cuestionario-desvinculacion"
             className="bg-teal-600 text-gray-100 py-3 px-6 sm:px-8 rounded-lg text-base sm:text-lg font-semibold shadow-lg hover:bg-teal-700 transition-all duration-300 transform hover:scale-105 w-full sm:w-auto text-center"
           >
             Fui desvinculado de mi trabajo en IT
