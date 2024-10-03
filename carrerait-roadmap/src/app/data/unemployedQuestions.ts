@@ -31,7 +31,7 @@ export const unemployedQuestions = [
       {
         option: "Por bajo rendimiento/No lograr objetivos.",
         response:
-          "Si te dijeron que fuiste desvinculado por bajo rendimiento o no lograr los objetivos, tte sugiero que analices la situación y te preguntes: “¿Qué pude haber hecho mejor? ¿Realmente bajó mi rendimiento? ¿Los objetivos que no pude realizar eran posibles?”. A veces, las empresas tienden a usar esta justificación de despido como un comodín, cuando no necesariamente tiene que ver con tu trabajo en sí. No obstante, si considerás que tienen razón, evitá mencionarlo a la hora de hacer entrevistas, ya que puede ser un factor determinante a la hora de conseguir el puesto.",
+          "Si te dijeron que fuiste desvinculado por bajo rendimiento o no lograr los objetivos, te sugiero que analices la situación y te preguntes: “¿Qué pude haber hecho mejor? ¿Realmente bajó mi rendimiento? ¿Los objetivos que no pude realizar eran posibles?”. A veces, las empresas tienden a usar esta justificación de despido como un comodín, cuando no necesariamente tiene que ver con tu trabajo en sí. No obstante, si considerás que tienen razón, evitá mencionarlo a la hora de hacer entrevistas, ya que puede ser un factor determinante a la hora de conseguir el puesto.",
       },
       {
         option: "Terminó mi contrato o proyecto y no fue renovado.",
