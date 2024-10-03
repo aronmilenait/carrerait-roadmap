@@ -23,7 +23,17 @@ const UnemployedSurvey = () => {
   };
 
   const handleFinishClick = () => {
-    setIsFinished(true);
+    const everythingAnswered = selectedAnswers.every(
+      (answer) => answer !== null
+    );
+
+    if (everythingAnswered) {
+      setIsFinished(true);
+    } else {
+      setError(
+        "Respondé a todas las preguntas antes de hacer click en finalizar :)"
+      );
+    }
   };
 
   return (
