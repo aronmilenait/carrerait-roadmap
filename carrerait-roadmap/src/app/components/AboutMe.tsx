@@ -58,13 +58,8 @@ const AboutMe = () => {
         rubro desde 2023, y comencé mi formación de manera autodidacta.
       </p>
       <p className={paragraphClasses}>
-        Entre 2023 y 2024, pasé por tres universidades diferentes, buscando la
-        opción que mejor se adaptara a mi situación personal, hasta llegar a la
-        que estoy en la actualidad.
-      </p>
-      <p className={paragraphClasses}>
-        Pronto voy a incorporar un formulario de contacto, pero mientras tanto,
-        si tenés alguna duda o sugerencia, ¡no dudes en escribirme!
+        Si tenés alguna duda o sugerencia, o simplemente querés hacer
+        networking, ¡no dudes en contactarme!
       </p>
       <div className="flex flex-wrap justify-center space-x-8 sm:space-x-6 md:space-x-10 mb-8">
         <div className={iconContainerClasses}>
