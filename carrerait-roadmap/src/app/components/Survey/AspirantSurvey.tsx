@@ -5,7 +5,7 @@ import { aspirantQuestions } from "@/app/data/aspirantQuestions";
 import AspirantSurveyForm from "./AspirantSurveyForm";
 import AspirantSurveyResults from "./AspirantSurveyResults";
 
-const ItWorkerSurvey = () => {
+const AspirantSurvey = () => {
   const [selectedAnswers, setSelectedAnswers] = useState<(number | null)[]>(
     Array(aspirantQuestions.length).fill(null)
   );
@@ -58,4 +58,4 @@ const ItWorkerSurvey = () => {
   );
 };
 
-export default ItWorkerSurvey;
+export default AspirantSurvey;
