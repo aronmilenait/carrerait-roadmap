@@ -30,7 +30,6 @@ Con **más de 2300 miembros** en su servidor de Discord, podés preguntar lo que
 
 Para comenzar, solo necesitás visitar los siguientes enlaces:
 
-- [Sitio web oficial](https://ossu.firebaseapp.com): para saber más sobre el proyecto.
 - [Repositorio de GitHub](https://github.com/ossu/computer-science): para acceder al plan de estudios y al material.
 - [Servidor de Discord](https://discord.gg/wuytwK5s9h): ara formar parte de la comunidad.
 
