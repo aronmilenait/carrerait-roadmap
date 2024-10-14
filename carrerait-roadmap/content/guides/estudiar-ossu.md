@@ -8,12 +8,6 @@ quienes no se sienten cómodos en ambientes académicos, lo cual también es imp
 
 ## ¿Qué es _Open Source Society University_ (OSSU)?
 
-> Open Source Society University (OSSU) es una comunidad de estudiantes de todos los niveles que completan un plan de estudios integral de informática de código abierto, basado en proyectos, se ayudan mutuamente y comparten sus experiencias y códigos a través de GitHub y nuestros foros comunitarios.
-
-Esta breve definición fue extraída y traducida al español desde su sitio web oficial.
-
-## ¿En qué consiste?
-
 El plan de estudios de *Computer Science* (Ciencias de la Computación en español) en *Open Source Society University* (OSU) es una **educación completa en informática** a traves de **materiales en línea**, destinada a aqauellos que buscan una base completa en conceptos fundamentales para todas las disciplinas del área.
 
 En su repositorio, se indica que está destinado para aquellos que tienen **disciplina, voluntad y buenos hábitos** para poder lograrlo por su cuenta. Pero no te preocupes, porque podés **acceder a su comunidad** en Discord y obtener ayuda y acompañamiento de otros estudiantes e incluso tutores de todo el mundo: no vas a estar solo.
