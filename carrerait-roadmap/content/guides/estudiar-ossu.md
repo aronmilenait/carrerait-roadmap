@@ -44,7 +44,7 @@ Para comenzar, solo necesitás visitar los siguientes enlaces:
   - Explicar por qué elegiste estudiar en Open Source Society University. Por ejemplo, podés decir que te ayuda a organizar mejor tus tiempos y avanzar a tu ritmo.
   - Ir actualizando en base a lo que estás estudiando actualmente. Por ejemplo, si en este momento estás en el módulo de _Core Programming_ y en el curso de _Object-Oriented Design_, podés especificarlo.
 - **Aptitudes**: podés agregar las habilidades que vayas adquiriendo. Por ejemplo: Python, ciberseguridad, matemáticas, entre otros. Considero que lo mejor es ir añadiéndolas a medida que las estudies. Si agregás bases de datos y todavía no llegaste a esa parte, no tendría mucho sentido, ya que todavía no adquiriste esa aptitud.
-- **Contenido multimedia:** si querés, podés agregar el enlace al sitio web oficial de OSSU o al repositorio de GitHub como referencia.
+- **Contenido multimedia:** si querés, podés agregar el enlace al repositorio de GitHub como referencia.
 
 ## Conclusión y opiniones personales
 
@@ -56,4 +56,4 @@ El plan de estudios es muy completo e interesante: es el equivalente a un _Bache
 - Estudiar de esta manera, teniendo en cuenta mis responsabilidades, me ayuda a mantener un buen **balance entre la vida y el trabajo**. Si un día no tengo la energía para estudiar después o antes de trabajar, necesito dedicarle tiempo a otras cosas o quiero tomarme un descanso, puedo volver a estudiar al día siguiente sin que haya consecuencias, como atrasos en la preparación de trabajos o exámenes.
 - Me apasiona lo _open-source_ (último, pero no menos importante).
 
-¡Espero que te sirva esta información! Todo fue escrito en base a lo que leí en su sitio web oficial y repositorio de GitHub. ¡Y muchos éxitos en tu carrera!
+¡Espero que te sirva esta información! Todo fue escrito en base a lo que leí en su repositorio de GitHub. ¡Muchos éxitos en tu carrera!
