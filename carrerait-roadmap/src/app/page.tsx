@@ -24,35 +24,35 @@ const iconClasses = "text-teal-300 text-4xl mb-2";
           <span className="absolute inset-0 bg-gradient-to-r from-teal-500 to-teal-300 blur-sm opacity-30 -z-10"></span>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-12 w-full max-w-4xl">
-          <div className={gridDivClasses}>
+          <a className={gridDivClasses} href="/recursos" target="_blank">
             <FontAwesomeIcon icon={faBook} className={iconClasses} />
             <p className={titleClasses}>Recursos gratuitos</p>
             <p className={textClasses}>
              Gratuitos, para diversas áreas de IT y de excelente calidad.
             </p>
-          </div>
+          </a>
 
-          <div className={gridDivClasses}>
+          <a className={gridDivClasses} href="/cuestionario" target="_blank">
             <FontAwesomeIcon icon={faClipboardList} className={iconClasses} />
             <p className={titleClasses}>Cuestionarios</p>
             <p className={textClasses}>
               Recibí recomendaciones sobre cómo avanzar con tu carrera.
             </p>
-          </div>
+          </a>
 
-          <div className={gridDivClasses}>
+          <a className={gridDivClasses} href="/orientacion" target="_blank">
             <FontAwesomeIcon icon={faPaperPlane} className={iconClasses} />
             <p className={titleClasses}>Guías y artículos de orientación</p>
             <p className={textClasses}>
               Formación, empleo y mucho más.
             </p>
-          </div>
+          </a>
 
-          <div className={gridDivClasses}>
+          <a className={gridDivClasses} href="/info" target="_blank">
             <FontAwesomeIcon icon={faInfoCircle} className={iconClasses} />
             <h3 className={titleClasses}>Información</h3>
             <p className={textClasses}>Conocé el proyecto.</p>
-          </div>
+          </a>
         </div>
       </section>
     </main>
