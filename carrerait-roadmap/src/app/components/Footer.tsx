@@ -11,16 +11,28 @@ const Footer = () => {
         </a>
         <nav className="mt-4 flex justify-center space-x-6">
           <a
-            href="/"
-            className="font-semibold text-teal-400 hover:text-teal-200 transition-colors duration-300"
-          >
-            Inicio
-          </a>
-          <a
             href="/cuestionario"
             className="font-semibold text-teal-400 hover:text-teal-200 transition-colors duration-300"
           >
-            Cuestionario
+            Cuestionarios
+          </a>
+          <a
+            href="/orientacion"
+            className="font-semibold text-teal-400 hover:text-teal-200 transition-colors duration-300"
+          >
+            Orientación
+          </a>
+          <a
+            href="/recursos"
+            className="font-semibold text-teal-400 hover:text-teal-200 transition-colors duration-300"
+          >
+            Recursos
+          </a>
+          <a
+            href="/info"
+            className="font-semibold text-teal-400 hover:text-teal-200 transition-colors duration-300"
+          >
+            Información
           </a>
           <a
             href="https://www.linkedin.com/in/milenasaron"
