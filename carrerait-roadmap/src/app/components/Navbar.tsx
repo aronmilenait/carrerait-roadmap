@@ -22,7 +22,7 @@ const Navbar = () => {
   ];
 
   return (
-    <nav className="bg-teal-900 text-teal-200 p-4 flex flex-col sm:flex-row items-center shadow-lg">
+    <nav className="bg-gradient-to-r from-gray-900 via-gray-950 to-gray-900 text-teal-200 p-6 flex flex-col sm:flex-row items-center shadow-xl">
       <div className="flex justify-between items-center w-full sm:w-auto relative">
         <a
           href="/"
@@ -33,7 +33,7 @@ const Navbar = () => {
         </a>
         <span className="absolute inset-0 bg-gradient-to-r from-teal-500 to-teal-300 blur-sm opacity-30 -z-10"></span>
         <button
-          className="sm:hidden text-2xl focus:outline-none ml-4"
+          className="sm:hidden text-3xl focus:outline-none ml-4 hover:text-teal-400 transition-all duration-300"
           onClick={toggleMenu}
           aria-label="Toggle menu"
         >
@@ -47,8 +47,8 @@ const Navbar = () => {
       >
         <ul className="flex flex-col items-center space-y-4 sm:flex-row sm:space-y-0 sm:space-x-8">
           <li>
-            <a href="/cuestionario" className={linkClasses.join(" ")}>
-              Cuestionario
+          <a href="/cuestionario" className={linkClasses.join(" ")}>
+              Cuestionarios
             </a>
           </li>
           <li>
