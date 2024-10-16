@@ -7,12 +7,12 @@ const Footer = () => {
       <div className="max-w-4xl mx-auto text-center">
         <a
           href="/"
-          className="text-4xl md:text-3xl font-extrabold text-teal-100 relative z-10"
+          className="text-4xl sm:text-3xl md:text-2xl font-extrabold text-teal-100 relative z-10"
         >
           <span className="text-teal-300">Carrera</span>
           <span className="text-teal-500">IT</span>
         </a>
-        <nav className="mt-4 flex justify-center space-x-6">
+        <nav className="mt-4 flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-6">
           <a href="/cuestionario" className={footerLinksClasses}>
             Cuestionarios
           </a>
