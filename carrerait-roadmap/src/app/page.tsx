@@ -1,4 +1,18 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faBook,
+  faClipboardList,
+  faPaperPlane,
+  faInfoCircle,
+} from "@fortawesome/free-solid-svg-icons";
+
 export default function Home() {
+  const gridDivClasses =
+  "bg-gradient-to-br from-gray-800 via-gray-700 to-gray-600 cursor-pointer p-6 rounded-lg shadow-lg text-center transition-transform duration-300 ease-in-out transform hover:shadow-2xl hover:scale-105 hover:rotate-1 hover:bg-gray-800";
+const titleClasses = "text-2xl font-bold text-teal-200 mt-4";
+const textClasses = "mt-2 text-gray-300";
+const iconClasses = "text-teal-300 text-4xl mb-2";
+
   return (
     <main className="min-h-screen bg-gradient-to-br from-gray-900 via-gray-800 to-gray-700 text-gray-100 p-6 md:p-24 flex flex-col justify-center items-center">
       <section id="hero" className="text-center space-y-6 md:space-y-8">
@@ -9,26 +23,35 @@ export default function Home() {
           </div>
           <span className="absolute inset-0 bg-gradient-to-r from-teal-500 to-teal-300 blur-sm opacity-30 -z-10"></span>
         </div>
-        <h1 className="text-teal-100 text-4xl sm:text-5xl md:text-6xl font-extrabold leading-tight max-w-3xl mx-auto relative">
-          Descubrí cuál es el mejor camino para vos
-          <span className="absolute inset-0 bg-gradient-to-r from-teal-500 to-teal-300 blur-sm opacity-30 -z-10"></span>
-        </h1>
-        <p className="text-teal-200 text-base sm:text-lg md:text-2xl max-w-2xl mx-auto">
-          Respondé algunas preguntas y recibí recomendaciones personalizadas
-          basadas en tu perfil y las tendencias actuales del sector.
-        </p>
-        <div className="mt-6 sm:mt-8 flex flex-col sm:flex-row justify-center items-center space-y-4 sm:space-y-0 sm:space-x-4">
-          <a
-            href="/cuestionario"
-            className="bg-teal-600 text-gray-100 py-3 px-6 sm:px-8 rounded-lg text-base sm:text-lg font-semibold shadow-lg hover:bg-teal-700 transition-all duration-300 transform hover:scale-105 w-full sm:w-auto text-center"
-          >
-            Ir al cuestionario
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-12 w-full max-w-4xl">
+          <a className={gridDivClasses} href="/recursos" target="_blank">
+            <FontAwesomeIcon icon={faBook} className={iconClasses} />
+            <p className={titleClasses}>Recursos gratuitos</p>
+            <p className={textClasses}>
+             Gratuitos, para diversas áreas de IT y de excelente calidad.
+            </p>
           </a>
-          <a
-            href="/info"
-            className="bg-teal-600 text-gray-100 py-3 px-6 sm:px-8 rounded-lg text-base sm:text-lg font-semibold shadow-lg hover:bg-teal-700 transition-all duration-300 transform hover:scale-105 w-full sm:w-auto text-center"
-          >
-            Más información
+
+          <a className={gridDivClasses} href="/cuestionario" target="_blank">
+            <FontAwesomeIcon icon={faClipboardList} className={iconClasses} />
+            <p className={titleClasses}>Cuestionarios</p>
+            <p className={textClasses}>
+              Recibí recomendaciones sobre cómo avanzar con tu carrera.
+            </p>
+          </a>
+
+          <a className={gridDivClasses} href="/orientacion" target="_blank">
+            <FontAwesomeIcon icon={faPaperPlane} className={iconClasses} />
+            <p className={titleClasses}>Guías y artículos de orientación</p>
+            <p className={textClasses}>
+              Formación, empleo y mucho más.
+            </p>
+          </a>
+
+          <a className={gridDivClasses} href="/info" target="_blank">
+            <FontAwesomeIcon icon={faInfoCircle} className={iconClasses} />
+            <h3 className={titleClasses}>Información</h3>
+            <p className={textClasses}>Conocé el proyecto.</p>
           </a>
         </div>
       </section>
