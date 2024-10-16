@@ -16,7 +16,7 @@ export default async function Orientation() {
   return (
     <main className="min-h-screen bg-gray-900 text-white p-4 sm:p-6 md:p-8 lg:p-24">
       <h1 className="text-3xl sm:text-4xl md:text-5xl text-teal-400 font-extrabold mb-6 text-center">
-        Orientación
+        Guías y artículos de orientación
       </h1>
       <div className="space-y-8">
         {guidesMeta.map((guide) => (
