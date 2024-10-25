@@ -77,6 +77,14 @@ Este sitio web permite que los empleados dejen reseñas anónimas de las empresa
 
 Los usuarios pueden buscar a las compañías por sus nombres y ver las opiniones de los demás, ver el top de cinco de las mejores calificadas y leer las últimas reseñas.
 
+## Consejos para encontrar inspiración en proyectos personales
+
+- **Pensá en algo que podría servirte a vos:** por ejemplo, un sitio web donde puedas ver dónde conseguir el juego de Steam que querés por el valor más bajo, u otro tipo de productos. (Ya existen, por las dudas)
+
+- Podés **tomar proyectos típicos y agregarles tu toque personal**, incluyendo features que se te hayan ocurrido. Por ejemplo, una plataforma de búsqueda de empleo como Linkedln donde puedas recibir oportunidades en remoto de todo el mundo, pero agregando la feature de no recibir ofertas de determinados países. No estás creando una idea de sitio web nueva, pero si una funcionalidad que no suele verse (al momento de escribir esto, Linkedln sólo te deja buscar por continentes o países, o también en todo el mundo, pero no podés elegir que ciertos países no te aparezcan).
+
+- También, podés considerar un grupo del que formes parte. Por ejemplo: como desarrollador, ¿qué sentís que le hace falta a la comunidad y que vos podés crear? Dos ejemplos que se me ocurren son los anteriormente mencionados: Salancy y Openqube. O si uno de tus hobbies es, por decir algo, cocinar: ¿qué creés que podés hacer desde el desarrollo para solucionar una problemática? Por ejemplo, hay páginas donde podés seleccionar los ingredientes que tenés en tu casa y recibir recetas en base a eso, que no incluyen los que no hayas seleccionado.
+
 ## Conclusiones
 
 Si en lugar de sólo hacer proyectos típicos te animás a pensar en ideas originales que resuelvan problemáticas, vas a aprender mucho y a tener más chances de resaltar en procesos de selección.
