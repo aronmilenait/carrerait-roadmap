@@ -1,5 +1,5 @@
 ---
-title: Cómo crear proyectos personales destacables
+title: Cómo crear proyectos personales que te ayuden a destacar
 description: Si sos desarrollador y no sabés qué tipo de proyectos hacer para tu portafolio, esta guía es para vos.
 ---
 
