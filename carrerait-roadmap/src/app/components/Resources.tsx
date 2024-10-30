@@ -53,25 +53,20 @@ const Resources = () => {
       </div>
       <div className="grid gap-8 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
         {filteredResources.map((resource, index) => (
-          <div
+          <a
             key={index}
-            className="p-6 bg-gray-800 rounded-lg shadow-lg border-l-4 border-teal-400 flex flex-col justify-between min-h-[200px]"
+            href={resource.link}
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-center p-6 rounded-lg shadow-md border border-gray-700 bg-gradient-to-br from-gray-800 to-gray-900 hover:shadow-xl transition-transform duration-300 ease-out transform hover:scale-105 flex flex-col items-center justify-center min-h-[180px] max-h[200px] hover:border-teal-500 hover:bg-gradient-to-br hover:from-teal-800 hover:to-gray-900"
           >
-            <p className="text-teal-200 text-2xl font-bold mb-3">
+            <p className="text-teal-300 text-2xl font-bold mb-3">
               {resource.title}
             </p>
-            <p className="text-teal-400 text-xl font-medium mb-4 flex-grow">
+            <p className="text-gray-300 text-lg font-medium flex-grow">
               {resource.description}
             </p>
-            <a
-              href={resource.link}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-teal-50 text-center text-xl bg-teal-700 py-2 px-4 rounded-lg hover:bg-teal-900 font-semibold transition-colors duration-300"
-            >
-              Ver recurso
-            </a>
-          </div>
+          </a>
         ))}
       </div>
     </section>
