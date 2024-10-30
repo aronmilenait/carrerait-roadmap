@@ -45,4 +45,20 @@ export const resources = [
       "Roadmaps para organizar tu aprendizaje según roles o tecnologías.",
     link: "https://roadmap.sh/",
   },
+  {
+    title: "Gentleman Programming Book",
+    type: "libros",
+    topic: ["Programación", "Arquitectura de software", "Front End"],
+    description:
+      "Libro escrito por Alan Buscaglia sobre programación, arquitectura de software y otros temas.",
+    link: "https://the-amazing-gentleman-programming-book.vercel.app/es",
+  },
+  {
+    title: "Gentleman Programming",
+    type: "cursos",
+    topic: ["Programación", "Arquitectura de software", "Front End"],
+    description:
+      "Canal de YouTube de Alan Buscaglia, quien realiza cursos y videos sobre front end y arquitectura de software.",
+    link: "https://www.youtube.com/@GentlemanProgramming/videos",
+  },
 ];
