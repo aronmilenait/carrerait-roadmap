@@ -2,7 +2,7 @@ export const resources = [
   {
     title: "Open Source University (OSSU): Computer Science",
     type: "carrera",
-    topic: ["Ciencias de la computación", "Carrera", "Programación"],
+    topic: ["Ciencias de la computación", "Programación"],
     description:
       "Estudiá ciencias de la computación en inglés de manera autodidacta.",
     link: "https://ossu.firebaseapp.com/",
@@ -27,7 +27,7 @@ export const resources = [
     type: "sitio web",
     topic: ["Patrones de diseño", "Programación"],
     description:
-      "Aprendé sobre patrones de diseño, principios SOLID y refactorizción.",
+      "Aprendé sobre patrones de diseño, principios SOLID y refactorización.",
   },
   {
     title: "Linux Professional Institute",
@@ -44,5 +44,21 @@ export const resources = [
     description:
       "Roadmaps para organizar tu aprendizaje según roles o tecnologías.",
     link: "https://roadmap.sh/",
+  },
+  {
+    title: "Gentleman Programming Book",
+    type: "libros",
+    topic: ["Programación", "Arquitectura de software", "Front End"],
+    description:
+      "Libro escrito por Alan Buscaglia sobre programación, arquitectura de software y otros temas.",
+    link: "https://the-amazing-gentleman-programming-book.vercel.app/es",
+  },
+  {
+    title: "Gentleman Programming",
+    type: "cursos",
+    topic: ["Programación", "Arquitectura de software", "Front End"],
+    description:
+      "Canal de YouTube de Alan Buscaglia, quien realiza cursos y videos sobre front end y arquitectura de software.",
+    link: "https://www.youtube.com/@GentlemanProgramming/videos",
   },
 ];
