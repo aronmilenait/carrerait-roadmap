@@ -2,7 +2,7 @@ export const resources = [
   {
     title: "Open Source University (OSSU): Computer Science",
     type: "carrera",
-    topic: ["Ciencias de la computación", "Carrera", "Programación"],
+    topic: ["Ciencias de la computación", "Programación"],
     description:
       "Estudiá ciencias de la computación en inglés de manera autodidacta.",
     link: "https://ossu.firebaseapp.com/",
@@ -27,7 +27,7 @@ export const resources = [
     type: "sitio web",
     topic: ["Patrones de diseño", "Programación"],
     description:
-      "Aprendé sobre patrones de diseño, principios SOLID y refactorizción.",
+      "Aprendé sobre patrones de diseño, principios SOLID y refactorización.",
   },
   {
     title: "Linux Professional Institute",
