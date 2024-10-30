@@ -19,7 +19,7 @@ const Resources = () => {
   );
 
   return (
-    <section className="bg-gray-900 text-white py-10 px-4 max-w-3xl mx-auto">
+    <section className="bg-gray-900 text-white py-10 px-4 mx-auto">
       <h1 className="text-4xl sm:text-3xl md:text-5xl text-teal-400 font-extrabold mb-8 text-center">
         Recursos
       </h1>
@@ -51,7 +51,7 @@ const Resources = () => {
           ))}
         </select>
       </div>
-      <div className="space-y-8">
+      <div className="grid gap-8 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
         {filteredResources.map((resource, index) => (
           <div
             key={index}
