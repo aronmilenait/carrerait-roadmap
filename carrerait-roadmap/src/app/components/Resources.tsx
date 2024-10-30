@@ -26,10 +26,10 @@ const Resources = () => {
       <p className="text-2xl font-bold mb-8 text-center">
         Todos son gratuitos y de excelente calidad.
       </p>
-      <div className="mb-8 text-center flex flex-col justify-between">
+      <div className="mb-8 text-center flex justify-center items-center gap-2">
         <label
           htmlFor="topic-select"
-          className="text-lg font-semibold text-teal-300 mr-2"
+          className="text-lg font-semibold text-teal-300"
         >
           Filtrar por:
         </label>
@@ -40,7 +40,7 @@ const Resources = () => {
               e.target.value === "Todos" ? null : e.target.value
             )
           }
-          className="py-2 px-4 text-center rounded-md bg-teal-600 text-white"
+          className="w-48 p-2 rounded-md bg-teal-600 text-white shadow-lg border-2 border-teal-500 focus:outline-none focus:ring-2 focus:ring-teal-400"
           value={selectedTopic || "Todos"}
         >
           <option value="Todos">Todos</option>
