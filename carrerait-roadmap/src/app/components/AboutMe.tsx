@@ -1,7 +1,6 @@
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
-import Image from "next/image";
 
 const AboutMe = () => {
   const paragraphClasses = [
@@ -43,15 +42,6 @@ const AboutMe = () => {
         Sobre mí
       </h1>
       <div className="flex justify-center mb-8">
-        <div className="relative w-48 h-48 md:w-56 md:h-56 rounded-full overflow-hidden shadow-xl border-4 border-teal-700">
-          <Image
-            src="/myself.jpeg"
-            alt="Milena Sol Aron"
-            layout="fill"
-            objectFit="cover"
-            priority
-          />
-        </div>
       </div>
       <p className={paragraphClasses}>
         Soy Milena Sol Aron, la desarrolladora de este proyecto. Trabajo en el
