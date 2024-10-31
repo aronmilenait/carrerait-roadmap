@@ -10,7 +10,19 @@ const inter = Inter({ subsets: ["latin"] });
 export const metadata: Metadata = {
   title: "CarreraIT",
   description:
-    "Respondé algunas preguntas y recibí recomendaciones personalizadas basadas en tu perfil y las tendencias actuales del sector.",
+    "Plataforma para aspirantes y profesionales de IT, con cuestionarios personalizados que ofrecen recomendaciones según tu situación, recursos gratuitos de excelente calidad y guías de orientación para tu carrera.",
+  keywords: [
+    "CarreraIT",
+    "IT",
+    "Programación",
+    "Cuestionarios",
+    "Guías",
+    "Recursos gratuitos",
+    "Orientación"
+  ],
+  robots: "index, follow",
+  authors: [{ name: "Milena Sol Aron", url: "https://www.linkedin.com/in/milenasaron/" }],
+  publisher: "CarreraIT"
 };
 
 export default function RootLayout({
