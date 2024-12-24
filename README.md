@@ -23,7 +23,6 @@ The topics can go from how to choose the best career and university for you, to 
 ## :hammer: Technologies used:
 
 - **Next.js**: Chosen for its powerful features like server-side rendering and static site generation, which improve performance and SEO.
-- **React.js**: Selected for its component-based architecture, which promotes reusability and maintainability of the code.
 - **TypeScript**: Used for its static typing, which helps catch errors early in the development process and improves code quality.
 - **Tailwind CSS**: Preferred for its utility-first approach, which allows for fast and consistent styling without writing custom CSS.
 - **Vercel**: To handle deployment in an easy, fast, and free way, with seamless integration with Next.js for optimal performance.
