@@ -61,4 +61,11 @@ export const resources = [
       "Canal de YouTube de Alan Buscaglia, quien realiza cursos y videos sobre front end y arquitectura de software.",
     link: "https://www.youtube.com/@GentlemanProgramming/videos",
   },
+  {
+    title: "Listado de carreras a distancia en Argentina",
+    type: "informacion",
+    topic: ["Universidades", "Argentina"],
+    description: "Tecnicaturas, licenciaturas e ingienerías a distancia.",
+    link: "https://www.reddit.com/r/devsarg/comments/1gwm458/listado_de_carreras_a_distancia_tecnicaturas/",
+  },
 ];
