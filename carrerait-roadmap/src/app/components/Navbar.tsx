@@ -47,7 +47,7 @@ const Navbar = () => {
       >
         <ul className="flex flex-col items-center space-y-4 sm:flex-row sm:space-y-0 sm:space-x-8">
           <li>
-          <a href="/cuestionario" className={linkClasses.join(" ")}>
+            <a href="/cuestionario" className={linkClasses.join(" ")}>
               Cuestionarios
             </a>
           </li>
@@ -62,8 +62,8 @@ const Navbar = () => {
             </a>
           </li>
           <li>
-            <a href="/info" className={linkClasses.join(" ")}>
-              Información
+            <a href="/sobre-carrerait" className={linkClasses.join(" ")}>
+              Sobre CarreraIT
             </a>
           </li>
         </ul>

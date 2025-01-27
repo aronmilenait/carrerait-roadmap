@@ -23,7 +23,7 @@ export const homeLinks = [
   },
   {
     title: "Sobre CarreraIT",
-    href: "/info",
+    href: "/sobre-carrerait",
     icon: faInfoCircle,
   },
 ];
