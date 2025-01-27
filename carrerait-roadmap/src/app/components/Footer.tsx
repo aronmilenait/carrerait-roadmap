@@ -22,8 +22,8 @@ const Footer = () => {
           <a href="/recursos" className={footerLinksClasses}>
             Recursos
           </a>
-          <a href="/info" className={footerLinksClasses}>
-            Información
+          <a href="/sobre-carrerait" className={footerLinksClasses}>
+            Sobre CarreraIT
           </a>
           <a
             href="https://www.linkedin.com/in/milenasaron"

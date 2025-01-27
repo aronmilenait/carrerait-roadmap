@@ -60,10 +60,10 @@ const SurveyResults = ({ selectedAnswers, questions }: SurveyResultsProps) => {
             Recursos
           </a>
           <a
-            href="/info"
+            href="/sobre-carrerait"
             className="bg-teal-900 text-gray-100 py-3 px-6 sm:px-8 rounded-lg text-base sm:text-lg font-semibold shadow-lg hover:bg-teal-950 transition-all duration-300 transform hover:scale-105 w-full sm:w-auto text-center"
           >
-            Información
+            Sobre CarreraIT
           </a>
         </div>
       </div>
