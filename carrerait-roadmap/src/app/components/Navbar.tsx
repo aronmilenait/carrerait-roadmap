@@ -21,6 +21,14 @@ const Navbar = () => {
     "font-bold",
   ];
 
+  const links = [
+    { href: "/cuestionario", label: "Cuestionarios" },
+    { href: "/orientacion", label: "Orientación" },
+    { href: "/recursos", label: "Recursos" },
+    { href: "/sobre-carrerait", label: "Sobre CarreraIT" },
+    { href: "/contacto", label: "Contacto" },
+  ];
+
   return (
     <nav className="bg-gradient-to-r from-gray-900 via-gray-950 to-gray-900 text-teal-200 p-6 flex flex-col sm:flex-row items-center shadow-xl">
       <div className="flex justify-between items-center w-full sm:w-auto relative">
@@ -46,26 +54,17 @@ const Navbar = () => {
         } sm:flex sm:flex-grow sm:justify-center mt-4 sm:mt-0`}
       >
         <ul className="flex flex-col items-center space-y-4 sm:flex-row sm:space-y-0 sm:space-x-8">
-          <li>
-            <a href="/cuestionario" className={linkClasses.join(" ")}>
-              Cuestionarios
-            </a>
-          </li>
-          <li>
-            <a href="/orientacion" className={linkClasses.join(" ")}>
-              Orientación
-            </a>
-          </li>
-          <li>
-            <a href="/recursos" className={linkClasses.join(" ")}>
-              Recursos
-            </a>
-          </li>
-          <li>
-            <a href="/sobre-carrerait" className={linkClasses.join(" ")}>
-              Sobre CarreraIT
-            </a>
-          </li>
+          {links.map((link, index) => (
+            <li key={index}>
+              <a
+                href={link.href}
+                className={linkClasses.join(" ")}
+                onClick={toggleMenu}
+              >
+                {link.label}
+              </a>
+            </li>
+          ))}
         </ul>
       </div>
     </nav>
