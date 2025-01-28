@@ -12,28 +12,14 @@ const Footer = () => {
           <span className="text-teal-300">Carrera</span>
           <span className="text-teal-500">IT</span>
         </a>
-        <nav className="mt-4 flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-6">
-          <a href="/cuestionario" className={footerLinksClasses}>
-            Cuestionarios
-          </a>
-          <a href="/orientacion" className={footerLinksClasses}>
-            Orientación
-          </a>
-          <a href="/recursos" className={footerLinksClasses}>
-            Recursos
-          </a>
+        <div className="mt-4 flex justify-center space-x-4">
           <a href="/sobre-carrerait" className={footerLinksClasses}>
             Sobre CarreraIT
           </a>
-          <a
-            href="https://www.linkedin.com/in/milenasaron"
-            className={footerLinksClasses}
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+          <a href="/contacto" className={footerLinksClasses}>
             Contacto
           </a>
-        </nav>
+        </div>
       </div>
     </footer>
   );
