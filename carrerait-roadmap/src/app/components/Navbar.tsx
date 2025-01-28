@@ -27,6 +27,7 @@ const Navbar = () => {
     { href: "/recursos", label: "Recursos" },
     { href: "/sobre-carrerait", label: "Sobre CarreraIT" },
     { href: "/contacto", label: "Contacto" },
+    { href: "/contribuir", label: "Contribuir" },
   ];
 
   return (
