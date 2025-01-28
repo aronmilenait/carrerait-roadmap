@@ -11,15 +11,17 @@ const Resources = () => {
   };
 
   const filteredResources = selectedTopic
-    ? resources.filter((resource) => resource.topic.includes(selectedTopic))
-    : resources;
+    ? resources
+        .filter((resource) => resource.topic.includes(selectedTopic))
+        .sort((a, b) => a.title.localeCompare(b.title))
+    : resources.sort((a, b) => a.title.localeCompare(b.title));
 
   const specificTopics = Array.from(
     new Set(resources.flatMap((resource) => resource.topic))
-  );
+  ).sort((a, b) => a.localeCompare(b));
 
   return (
-    <section className="bg-gray-900 text-white py-10 px-4 mx-auto">
+    <section className="min-h-screen bg-gray-900 text-white py-10 px-4 mx-auto">
       <h1 className="text-4xl sm:text-3xl md:text-5xl text-teal-400 font-extrabold mb-8 text-center">
         Recursos
       </h1>
@@ -51,7 +53,7 @@ const Resources = () => {
           ))}
         </select>
       </div>
-      <div className="grid gap-8 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+      <div className="grid gap-8 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 px-4">
         {filteredResources.map((resource, index) => (
           <a
             key={index}
