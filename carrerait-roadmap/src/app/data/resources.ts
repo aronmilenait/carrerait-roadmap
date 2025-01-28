@@ -28,6 +28,7 @@ export const resources = [
     topic: ["Patrones de diseño", "Programación"],
     description:
       "Aprendé sobre patrones de diseño, principios SOLID y refactorización.",
+    link: "https://refactoring.guru/",
   },
   {
     title: "Linux Professional Institute",
@@ -48,7 +49,7 @@ export const resources = [
   {
     title: "Gentleman Programming Book",
     type: "libros",
-    topic: ["Programación", "Arquitectura de software", "Front End"],
+    topic: ["Programación", "Arquitectura de software", "Desarrollo Web"],
     description:
       "Libro escrito por Alan Buscaglia sobre programación, arquitectura de software y otros temas.",
     link: "https://the-amazing-gentleman-programming-book.vercel.app/es",
@@ -67,5 +68,73 @@ export const resources = [
     topic: ["Universidades", "Argentina"],
     description: "Tecnicaturas, licenciaturas e ingienerías a distancia.",
     link: "https://www.reddit.com/r/devsarg/comments/1gwm458/listado_de_carreras_a_distancia_tecnicaturas/",
+  },
+  {
+    title: "The Linux Foundation: cursos gratuitos",
+    type: "cursos",
+    topic: ["GNU/Linux", "DevOps", "Programación", "Ciberseguridad"],
+    description: "Cursos de GNU/Linux, DevOps, ciberseguridad y otras áreas",
+    link: "https://training.linuxfoundation.org/resources/?_sft_content_type=free-course",
+  },
+  {
+    title: "The Odin Project",
+    type: "cursos",
+    topic: ["Programación", "Desarrollo Web", "Full Stack"],
+    description: "Plan de estudios completo sobre desarrollo web full-stack",
+    link: "https://www.theodinproject.com/",
+  },
+  {
+    title: "Teach Yourself Computer Science",
+    type: "cursos",
+    topic: ["Ciencias de la computación"],
+    description: "Plan de estudio en inglés sobre ciencias de la computación",
+
+    link: "https://teachyourselfcs.com/",
+  },
+  {
+    title: "Prácticas recomendadas para curriculums",
+    type: "informacion",
+    topic: ["Trabajo"],
+    description:
+      "Post en Reddit con recomendaciones y recursos para armar tu CV",
+    link: "https://www.reddit.com/user/SlipiJobit/comments/1ep8de1/pr%C3%A1cticas_recomendadas_para_cvs/",
+  },
+  {
+    title: "DevsArg",
+    type: "comunidad",
+    topic: ["Argentina", "Comunidades", "Programación"],
+    description:
+      "Un subreddit para desarrolladores de Argentina (todos los países son bienvenidos)",
+    link: "https://www.reddit.com/r/devsarg/",
+  },
+  {
+    title: "Charrua Devs",
+    type: "comunidad",
+    topic: ["Comunidades", "Programación"],
+    description:
+      "Un subreddit para desarrolladores de Uruguay (todos los países son bienvenidos)",
+    link: "https://www.reddit.com/r/CharruaDevs/",
+  },
+  {
+    title: "Full Stack Open",
+    type: "cursos",
+    topic: ["Programación", "Desarrollo Web", "Full Stack"],
+    description: "Curso sobre desarrollo web full-stack en español",
+    link: "https://fullstackopen.com/es/",
+  },
+  {
+    title: "CS50: Introduction to Computer Science",
+    type: "cursos",
+    topic: ["Ciencias de la computación"],
+    description: "Curso de Harvard en inglés sobre ciencias de la computación",
+    link: "https://pll.harvard.edu/course/cs50-introduction-computer-science",
+  },
+  {
+    title: "Salancy",
+    type: "informacion",
+    topic: "Trabajo",
+    description:
+      "Salarios de diversas áreas de IT y seniorities en pesos argentinos y dólares.",
+    link: "https://salarios.gonzalopozzo.com/",
   },
 ];
