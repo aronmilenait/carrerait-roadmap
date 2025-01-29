@@ -18,11 +18,16 @@ export const metadata: Metadata = {
     "Cuestionarios",
     "Guías",
     "Recursos gratuitos",
-    "Orientación"
+    "Orientación",
   ],
   robots: "index, follow",
-  authors: [{ name: "Milena Sol Aron", url: "https://www.linkedin.com/in/milenasaron/" }],
-  publisher: "CarreraIT"
+  authors: [
+    {
+      name: "Milena Sol Aron",
+      url: "https://www.linkedin.com/in/milenasaron/",
+    },
+  ],
+  publisher: "CarreraIT",
 };
 
 export default function RootLayout({
@@ -33,7 +38,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${inter.className}`}>
-        <main className="bg-gray-900 text-white">
+        <main className="min-h-screen grid grid-rows-[auto_1fr_auto] bg-gray-900 text-white">
           <Navbar />
           {children}
           <Analytics />
