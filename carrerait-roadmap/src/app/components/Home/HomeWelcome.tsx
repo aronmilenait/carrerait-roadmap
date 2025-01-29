@@ -23,8 +23,8 @@ export default function HomeWelcome() {
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-12">
           <h1 className="text-5xl md:text-6xl font-extrabold mb-4">
-            <span className="text-teal-600">Carrera</span>
-            <span className="text-teal-800">IT</span>
+            <span className="text-teal-300">Carrera</span>
+            <span className="text-teal-500">IT</span>
           </h1>
           <p className="text-xl md:text-2xl max-w-3xl mx-auto leading-relaxed">
             Una plataforma gratuita para aprender, crecer y destacar en la
