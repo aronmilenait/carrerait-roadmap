@@ -1,75 +1,71 @@
 "use client";
 
 import { useState } from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faBars, faTimes } from "@fortawesome/free-solid-svg-icons";
+import Link from "next/link";
+import { Menu, X } from "lucide-react";
 
-const Navbar = () => {
+const links = [
+  { href: "/cuestionario", label: "Cuestionarios" },
+  { href: "/orientacion", label: "Orientación" },
+  { href: "/recursos", label: "Recursos" },
+  { href: "/sobre-carrerait", label: "Sobre CarreraIT" },
+  { href: "/contacto", label: "Contacto" },
+  { href: "/contribuir", label: "Contribuir" },
+];
+
+export default function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
 
-  const toggleMenu = () => {
-    setMenuOpen(!menuOpen);
-  };
-
-  const linkClasses = [
-    "hover:text-teal-400",
-    "transition-colors",
-    "duration-300",
-    "transform",
-    "text-center",
-    "text-lg sm:text-xl",
-    "font-bold",
-  ];
-
-  const links = [
-    { href: "/cuestionario", label: "Cuestionarios" },
-    { href: "/orientacion", label: "Orientación" },
-    { href: "/recursos", label: "Recursos" },
-    { href: "/sobre-carrerait", label: "Sobre CarreraIT" },
-    { href: "/contacto", label: "Contacto" },
-    { href: "/contribuir", label: "Contribuir" },
-  ];
-
   return (
-    <nav className="bg-gradient-to-r from-gray-900 via-gray-950 to-gray-900 text-teal-200 p-6 flex flex-col sm:flex-row items-center shadow-xl">
-      <div className="flex justify-between items-center w-full sm:w-auto relative">
-        <a
-          href="/"
-          className="text-4xl md:text-3xl font-extrabold text-teal-100 relative z-10"
-        >
-          <span className="text-teal-300">Carrera</span>
-          <span className="text-teal-500">IT</span>
-        </a>
-        <span className="absolute inset-0 bg-gradient-to-r from-teal-500 to-teal-300 blur-sm opacity-30 -z-10"></span>
-        <button
-          className="sm:hidden text-3xl focus:outline-none ml-4 hover:text-teal-400 transition-all duration-300"
-          onClick={toggleMenu}
-          aria-label="Toggle menu"
-        >
-          <FontAwesomeIcon icon={menuOpen ? faTimes : faBars} />
-        </button>
-      </div>
-      <div
-        className={`w-full ${
-          menuOpen ? "block" : "hidden"
-        } sm:flex sm:flex-grow sm:justify-center mt-4 sm:mt-0`}
-      >
-        <ul className="flex flex-col items-center space-y-4 sm:flex-row sm:space-y-0 sm:space-x-8">
-          {links.map((link, index) => (
-            <li key={index}>
-              <a
+    <nav className="bg-gray-800">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div className="flex justify-between h-16">
+          <div className="flex">
+            <Link href="/" className="flex-shrink-0 flex items-center">
+              <span className="text-xl font-bold">
+                <span className="text-teal-300">Carrera</span>
+                <span className="text-teal-500">IT</span>
+              </span>
+            </Link>
+          </div>
+          <div className="hidden sm:ml-6 sm:flex sm:space-x-8">
+            {links.map((link) => (
+              <Link
+                key={link.href}
                 href={link.href}
-                className={linkClasses.join(" ")}
-                onClick={toggleMenu}
+                className="inline-flex items-center px-1 pt-1 text-md font-medium text-teal-50 hover:text-teal-200 transition-colors duration-200"
               >
                 {link.label}
-              </a>
-            </li>
-          ))}
-        </ul>
+              </Link>
+            ))}
+          </div>
+          <div className="-mr-2 flex items-center sm:hidden">
+            <button
+              onClick={() => setMenuOpen(!menuOpen)}
+              className="inline-flex items-center justify-center p-2 rounded-md text-teal-600 hover:text-teal-500 hover:bg-teal-800 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-teal-500"
+            >
+              {menuOpen ? <X size={24} /> : <Menu size={24} />}
+            </button>
+          </div>
+        </div>
       </div>
+
+      {menuOpen && (
+        <div className="sm:hidden">
+          <div className="text-center pt-2 pb-3 space-y-1">
+            {links.map((link) => (
+              <Link
+                key={link.href}
+                href={link.href}
+                className="block pl-3 pr-4 py-2 text-base font-medium text-teal-50 hover:text-teal-200 hover:bg-teal-50 transition-colors duration-200"
+                onClick={() => setMenuOpen(false)}
+              >
+                {link.label}
+              </Link>
+            ))}
+          </div>
+        </div>
+      )}
     </nav>
   );
-};
-
-export default Navbar;
+}
