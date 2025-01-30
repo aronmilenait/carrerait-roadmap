@@ -1,5 +1,5 @@
 import Link from "next/link";
-import { getAllGuidesMeta } from "@/app/lib/guides";
+import { getAllGuidesMeta } from "@/utils/guides";
 import { BookOpen, ArrowRight } from "lucide-react";
 
 export default async function Orientation() {

@@ -1,6 +1,6 @@
 import Head from "next/head";
-import { Contact } from "../components/Contact/Contact";
-import { ContactForm } from "../components/Contact/ContactForm";
+import { Contact } from "@/components/Contact/Contact";
+import { ContactForm } from "@/components/Contact/ContactForm";
 
 export default function ContactPage() {
   return (

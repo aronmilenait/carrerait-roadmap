@@ -1,7 +1,5 @@
-import SurveySelect from "../components/Survey/SurveySelect";
+import SurveySelect from "@/components/Survey/SurveySelect";
 
 export default function SurveyPage() {
-  return (
-      <SurveySelect />
-  );
+  return <SurveySelect />;
 }

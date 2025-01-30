@@ -1,4 +1,4 @@
-import ItWorkerSurvey from "../components/Survey/itWorkerSurvey";
+import ItWorkerSurvey from "@/components/Survey/itWorkerSurvey";
 
 export default function ItWorkerSurveyPage() {
   return (
