@@ -1,13 +1,13 @@
 "use client";
 
 import { useState } from "react";
-import { itWorkerQuestions } from "../../data/itWorkerQuestions";
-import SurveyForm from "./SurveyForm";
-import SurveyResults from "./SurveyResults";
+import { aspirantQuestions } from "@/data/surveys/aspirantQuestions";
+import AspirantSurveyForm from "./AspirantSurveyForm";
+import AspirantSurveyResults from "./AspirantSurveyResults";
 
-const ItWorkerSurvey = () => {
+const AspirantSurvey = () => {
   const [selectedAnswers, setSelectedAnswers] = useState<(number | null)[]>(
-    Array(itWorkerQuestions.length).fill(null)
+    Array(aspirantQuestions.length).fill(null)
   );
 
   const [isFinished, setIsFinished] = useState(false);
@@ -23,17 +23,7 @@ const ItWorkerSurvey = () => {
   };
 
   const handleFinishClick = () => {
-    const everythingAnswered = selectedAnswers.every(
-      (answer) => answer !== null
-    );
-
-    if (everythingAnswered) {
-      setIsFinished(true);
-    } else {
-      setError(
-        "Respondé a todas las preguntas antes de hacer click en finalizar :)"
-      );
-    }
+    setIsFinished(true);
   };
 
   return (
@@ -44,8 +34,8 @@ const ItWorkerSurvey = () => {
         </h1>
         {!isFinished ? (
           <>
-            <SurveyForm
-              questions={itWorkerQuestions}
+            <AspirantSurveyForm
+              questions={aspirantQuestions}
               selectedAnswers={selectedAnswers}
               onAnswerClick={handleAnswerClick}
               error={error}
@@ -58,9 +48,9 @@ const ItWorkerSurvey = () => {
             </button>
           </>
         ) : (
-          <SurveyResults
+          <AspirantSurveyResults
             selectedAnswers={selectedAnswers}
-            questions={itWorkerQuestions}
+            questions={aspirantQuestions}
           />
         )}
       </div>
@@ -68,4 +58,4 @@ const ItWorkerSurvey = () => {
   );
 };
 
-export default ItWorkerSurvey;
+export default AspirantSurvey;
