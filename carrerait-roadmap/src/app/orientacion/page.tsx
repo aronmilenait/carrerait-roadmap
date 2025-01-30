@@ -1,40 +1,43 @@
 import Link from "next/link";
 import { getAllGuidesMeta } from "@/app/lib/guides";
-import { GuideMeta } from "@/app/types/types";
-
-interface OrientationProps {
-  guidesMeta: GuideMetaWithSlug[];
-}
-
-interface GuideMetaWithSlug extends GuideMeta {
-  slug: string;
-}
+import { BookOpen, ArrowRight } from "lucide-react";
 
 export default async function Orientation() {
   const guidesMeta = getAllGuidesMeta();
 
   return (
-    <main className="min-h-screen bg-gray-900 text-white p-4 sm:p-6 md:p-8 lg:p-24">
-      <h1 className="text-3xl sm:text-4xl md:text-5xl text-teal-400 font-extrabold mb-8 text-center tracking-wide">
+    <div className="min-h-screen bg-gray-900 text-white py-10 px-4">
+      <h1 className="text-4xl sm:text-3xl md:text-5xl text-teal-400 font-extrabold mb-8 text-center">
         Guías y artículos de orientación
       </h1>
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-* gap-8">
+
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {guidesMeta.map((guide) => (
           <Link key={guide.slug} href={`/orientacion/${guide.slug}`}>
-            <div className="bg-gray-800 p-4 sm:p-6 rounded-lg shadow-lg cursor-pointer hover:bg-teal-900 hover:shadow-2xl hover:scale-105 transition duration-300 ease-in-out">
-              <h2 className="text-2xl sm:text-2xl font-bold mb-2 sm:mb-4 text-teal-300">
-                {guide.title}
-              </h2>
-              <p className="text-gray-300 mb-4 text-base sm:text-lg">
-                {guide.description}
-              </p>
-              <div className="text-teal-50 text-sm sm:text-lg font-semibold">
-                Leer más...
+            <div className="bg-gray-800 rounded-lg overflow-hidden shadow-md hover:shadow-lg transition duration-300 ease-in-out group">
+              <div className="p-6">
+                <div className="flex items-center mb-4">
+                  <BookOpen className="w-6 h-6 text-teal-400 mr-3" />
+                  <h2 className="text-xl font-semibold text-teal-300 group-hover:text-teal-400 transition-colors duration-200">
+                    {guide.title}
+                  </h2>
+                </div>
+                <p className="text-teal-300 font-medium mb-2">
+                  Por Milena Sol Aron
+                </p>
+
+                <p className="text-gray-400 mb-4 line-clamp-3">
+                  {guide.description}
+                </p>
+                <div className="flex items-center text-teal-400 font-medium group-hover:text-teal-300 transition-colors duration-200">
+                  <span className="mr-2">Leer más</span>
+                  <ArrowRight className="w-4 h-4 transform group-hover:translate-x-1 transition-transform duration-200" />
+                </div>
               </div>
             </div>
           </Link>
         ))}
       </div>
-    </main>
+    </div>
   );
 }
