@@ -72,20 +72,24 @@ export const itWorkerQuestions = [
     answers: [
       {
         option: "No sé nada de inglés.",
-        response: "En este rubro, el inglés es un idioma muy usado. Para poder ampliar tus oportunidades, te recomiendo que consideres aprenderlo, debido a que muchos roles suelen requerirlo.",
+        response:
+          "En este rubro, el inglés es un idioma muy usado. Para poder ampliar tus oportunidades, te recomiendo que consideres aprenderlo, debido a que muchos roles suelen requerirlo.",
       },
       {
         option: "Básico.",
-        response: "En este rubro, el inglés es un idioma muy usado. El hecho de que tengas un nivel básico es algo muy positivo. Para poder ampliar tus oportunidades, te recomiendo que consideres aprenderlo en más profundidad, debido a que muchos roles suelen requerirlo.",
+        response:
+          "En este rubro, el inglés es un idioma muy usado. El hecho de que tengas un nivel básico es algo muy positivo. Para poder ampliar tus oportunidades, te recomiendo que consideres aprenderlo en más profundidad, debido a que muchos roles suelen requerirlo.",
       },
       {
         option: "Intermedio.",
-        response: "En este rubro, el inglés es un idioma muy usado. El hecho de que tengas un nivel intermedio es algo muy positivo, y seguramente te ayude a conseguir buenas oportunidades, ya que muchos roles suelen requerirlo"
+        response:
+          "En este rubro, el inglés es un idioma muy usado. El hecho de que tengas un nivel intermedio es algo muy positivo, y seguramente te ayude a conseguir buenas oportunidades, ya que muchos roles suelen requerirlo",
       },
       {
         option: "Avanzado.",
-        response: "En este rubro, el inglés es un idioma muy usado. El hecho de que tengas un nivel avanzado es algo muy positivo, y seguramente te ayude a conseguir buenas oportunidades, ya que muchos roles suelen requerirlo."
-      }
-    ]
-  }
+        response:
+          "En este rubro, el inglés es un idioma muy usado. El hecho de que tengas un nivel avanzado es algo muy positivo, y seguramente te ayude a conseguir buenas oportunidades, ya que muchos roles suelen requerirlo.",
+      },
+    ],
+  },
 ];
