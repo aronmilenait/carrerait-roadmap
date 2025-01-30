@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { resources } from "../app/data/resources";
+import { resources } from "../data/resources";
 
 const Resources = () => {
   const [selectedTopic, setSelectedTopic] = useState<string | null>(null);
