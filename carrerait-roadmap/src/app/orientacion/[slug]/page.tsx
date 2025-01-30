@@ -1,5 +1,5 @@
 import { notFound } from "next/navigation";
-import { getGuideContent, getGuideSlugs } from "@/app/lib/guides";
+import { getGuideContent, getGuideSlugs } from "@/lib/guides";
 import { Guide } from "@/types/types";
 import { CornerUpLeft } from "lucide-react";
 import Link from "next/link";
