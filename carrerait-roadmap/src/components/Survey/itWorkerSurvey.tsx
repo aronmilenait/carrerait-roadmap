@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import { itWorkerQuestions } from "../../data/itWorkerQuestions";
+import { itWorkerQuestions } from "../../app/data/itWorkerQuestions";
 import SurveyForm from "./SurveyForm";
 import SurveyResults from "./SurveyResults";
 
