@@ -1,7 +1,7 @@
 import fs from "fs";
 import path from "path";
 import matter from "gray-matter";
-import { Guide, GuideMeta } from "../types/types";
+import { Guide, GuideMeta } from "../../types/types";
 import { remark } from "remark";
 import html from "remark-html";
 
