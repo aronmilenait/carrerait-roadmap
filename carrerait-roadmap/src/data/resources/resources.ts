@@ -10,7 +10,7 @@ export const resources = [
   {
     title: "Píldoras informáticas",
     type: "cursos",
-    topic: ["Programación"],
+    topic: ["Programación", "YouTube"],
     description: "Cursos de desarrrollo de software en español.",
     link: "https://www.youtube.com/@pildorasinformaticas",
   },
@@ -49,7 +49,12 @@ export const resources = [
   {
     title: "Gentleman Programming Book",
     type: "libros",
-    topic: ["Programación", "Arquitectura de software", "Desarrollo Web"],
+    topic: [
+      "Programación",
+      "Arquitectura de software",
+      "Desarrollo Web",
+      "Libros",
+    ],
     description:
       "Libro escrito por Alan Buscaglia sobre programación, arquitectura de software y otros temas.",
     link: "https://the-amazing-gentleman-programming-book.vercel.app/es",
@@ -57,7 +62,7 @@ export const resources = [
   {
     title: "Gentleman Programming",
     type: "cursos",
-    topic: ["Programación", "Arquitectura de software", "Front End"],
+    topic: ["Programación", "Arquitectura de software", "Front End", "YouTube"],
     description:
       "Canal de YouTube de Alan Buscaglia, quien realiza cursos y videos sobre front end y arquitectura de software.",
     link: "https://www.youtube.com/@GentlemanProgramming/videos",
@@ -136,5 +141,44 @@ export const resources = [
     description:
       "Salarios de diversas áreas de IT y seniorities en pesos argentinos y dólares.",
     link: "https://salarios.gonzalopozzo.com/",
+  },
+  {
+    title: "Código Mate",
+    type: "cursos",
+    topic: ["Desarrollo web, Programación", "YouTube"],
+    description:
+      "Canal de YouTube de Código Mate, quien realiza cursos sobre desarrollo web",
+    link: "https://www.youtube.com/@codigomate",
+  },
+  {
+    title: "Libros de DevsArg",
+    type: "libros",
+    topic: ["Libros"],
+    description:
+      "Biblioteca de libros en formato PDF de la comunidad DevsArg, desarrollada por Código Mate",
+    link: "https://libros.codigomate.com/",
+  },
+  {
+    title: "Gonzi Pozzo",
+    type: "informacion",
+    topic: ["YouTube", "Programación", "Desarrollo Web"],
+    description:
+      "Canal de YouTube de Gonzalo Pozzo, quien crea contenido sobre desarrollo web",
+    link: "https://www.youtube.com/@goncypozzo/videos",
+  },
+  {
+    title: "MiduLive",
+    type: "cursos",
+    topic: ["YouTube", "Programación", "Desarrollo Web"],
+    description:
+      "Canal de YouTube de Midu, quien comparte cursos gratuitos y noticias del rubro (sobre todo de desarrollo web)",
+    link: "https://www.youtube.com/@midulive/videos",
+  },
+  {
+    title: "Curso de Next.js de Gonzalo Pozzo",
+    type: "cursos",
+    topic: ["Programación", "Desarrollo web", "Front End", "Full Stack"],
+    description: "Curso introductorio a Next.js 15 con App Router",
+    link: "https://github.com/goncy/nextjs-course",
   },
 ];
