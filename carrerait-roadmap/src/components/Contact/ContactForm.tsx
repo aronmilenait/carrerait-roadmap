@@ -1,7 +1,6 @@
 "use client";
 import { useForm, ValidationError } from "@formspree/react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faPaperPlane, faSpinner } from "@fortawesome/free-solid-svg-icons";
+import { SendHorizontal } from "lucide-react";
 
 const FORMSPREE_ID = process.env.NEXT_PUBLIC_FORMSPREE_ID;
 
@@ -12,7 +11,7 @@ export function ContactForm() {
 
   return (
     <section className="bg-gray-900 text-white py-12 px-4 mx-auto">
-      <h2 className="text-2xl font-bold mb-8 text-center text-teal-300">
+      <h2 className="text-xl leading-relaxed text-gray-50 text-center mb-12 max-w-2xl mx-auto">
         También podés hacerlo mediante el siguiente formulario:
       </h2>
       <form onSubmit={handleSubmit} className="space-y-6 max-w-md mx-auto">
@@ -61,15 +60,12 @@ export function ContactForm() {
         >
           {state.submitting ? (
             <span className="inline-flex items-center">
-              <FontAwesomeIcon
-                icon={faSpinner}
-                className="animate-spin -ml-1 mr-3 text-white"
-              />
+              <SendHorizontal className="animate-spin -ml-1 mr-3 text-white" />
               Enviando...
             </span>
           ) : (
             <>
-              <FontAwesomeIcon icon={faPaperPlane} className="mr-2" />
+              <SendHorizontal className="mr-2" />
               Enviar
             </>
           )}
