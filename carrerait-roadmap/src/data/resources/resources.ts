@@ -145,7 +145,7 @@ export const resources = [
   {
     title: "Código Mate",
     type: "cursos",
-    topic: ["Desarrollo web, Programación", "YouTube"],
+    topic: ["Desarrollo web", "Programación", "YouTube"],
     description:
       "Canal de YouTube de Código Mate, quien realiza cursos sobre desarrollo web",
     link: "https://www.youtube.com/@codigomate",
