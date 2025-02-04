@@ -181,4 +181,34 @@ export const resources = [
     description: "Curso introductorio a Next.js 15 con App Router",
     link: "https://github.com/goncy/nextjs-course",
   },
+  {
+    title: "Libros de programación en español",
+    type: "libros",
+    topic: ["Programación", "Libros"],
+    description: "Repositorio de Midudev con libros de programación",
+    link: "https://github.com/midudev/libros-programacion-gratis",
+  },
+  {
+    title: "Guía para entrevistas técnicas como ingeniero de software",
+    type: "informacion",
+    topic: ["Trabajo", "Programación"],
+    description: "Repositorio de recursos para entrevistas técnicas",
+    link: "https://github.com/DevCaress/guia-entrevistas-de-programacion",
+  },
+  {
+    title: "Notas y resúmenes de libros técnicos",
+    type: "libros",
+    topic: ["Programación", "Libros"],
+    description:
+      "Repositorio con resúmenes y notas de libros técnicos tomadas por mí (en inglés)",
+    link: "https://github.com/aronmilenait/tech-book-notes",
+  },
+  {
+    title: "Notas de A Philosofy of Software Design",
+    type: "libros",
+    topic: ["Programación", "Libros", "Arquitectura de software"],
+    description:
+      "Notas/resumen del libro A Philosofy of Software Design, de John Ousterhout (en inglés)",
+    link: "https://github.com/aronmilenait/tech-book-notes/blob/master/A%20Philosofy%20of%20Software%20Design/Notes%20on%20A%20Philosophy%20of%20Software%20Design%20by%20John%20Ousterhout.md",
+  },
 ];
