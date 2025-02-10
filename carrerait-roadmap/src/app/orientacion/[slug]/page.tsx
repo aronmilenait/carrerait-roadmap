@@ -22,7 +22,7 @@ export default async function GuidePage({ params }: Params) {
   const guide: Guide = await getGuideContent(slug);
 
   return (
-    <section className="bg-gradient-to-br from-gray-900 via-gray-800 to-gray-700 to-black text-teal-900 p-4 sm:p-6 md:p-12">
+    <section className="bg-gray-900 text-teal-900 p-4 sm:p-6 md:p-12">
       <article className="max-w-3xl mx-auto bg-white p-4 sm:p-6 md:p-8 rounded-lg shadow-md">
         <header className="mb-4 sm:mb-6">
           <h1 className="text-3xl sm:text-2xl md:text-4xl font-extrabold text-teal-900 mb-2 sm:mb-4">
@@ -31,7 +31,7 @@ export default async function GuidePage({ params }: Params) {
         </header>
         <section
           dangerouslySetInnerHTML={{ __html: guide.content }}
-          className="prose sm:prose lg:prose-lg xl:prose-xl prose-gray leading-relaxed"
+          className="prose sm:prose lg:prose-lg xl:prose-lg prose-black leading-relaxed"
         />
       </article>
       <div className="flex justify-center mt-12">
