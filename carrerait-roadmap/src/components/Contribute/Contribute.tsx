@@ -12,7 +12,7 @@ export function Contribute() {
         siguientes maneras:
       </p>
 
-      <ul className="grid gap-8 sm:grid-cols-2">
+      <ul className="grid gap-8 sm:grid-cols-3">
         <ContributionItem
           title="Compartiendo recursos"
           description="Enviando cursos, comunidades, plataformas, libros u otras herramientas útiles."
@@ -27,24 +27,6 @@ export function Contribute() {
           title="Aportando ideas"
           description="Tus sugerencias son valiosas para mejorar la plataforma."
           icon={<Lightbulb size={24} />}
-        />
-        <ContributionItem
-          title="Contribuyendo económicamente"
-          description={
-            <>
-              Podés hacerlo mediante{" "}
-              <a
-                href="https://cafecito.app/carrerait"
-                target="_blank"
-                rel="noopener noreferrer"
-                className="font-semibold text-teal-400 hover:text-teal-200 transition-colors duration-300"
-              >
-                Cafecito
-              </a>
-              .
-            </>
-          }
-          icon={<Coffee size={24} />}
         />
       </ul>
 
